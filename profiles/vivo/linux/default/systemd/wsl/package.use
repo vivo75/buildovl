@@ -45,3 +45,11 @@ sys-libs/tevent python
 # conflict with kubectl
 sys-cluster/k3s -kubectl-symlink
 
+# required by snapd
+sys-apps/systemd policykit
+
+# packages that can benefit from QT
+sci-visualization/gnuplot qt5
+dev-python/matplotlib qt5
+dev-python/PyQt5 gui widgets
+

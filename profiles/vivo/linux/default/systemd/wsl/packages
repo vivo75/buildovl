@@ -6,6 +6,10 @@ app-admin/sops
 app-admin/syslog-ng
 app-admin/terraform
 app-arch/pigz
+app-backup/bacula
+app-backup/duplicity
+app-backup/restic
+app-backup/rsnapshot
 app-containers/buildah
 app-containers/cni-plugins
 app-containers/containerd
@@ -13,12 +17,14 @@ app-containers/cri-o
 app-containers/cri-tools
 app-containers/lxc-templates
 app-containers/podman
+app-containers/snapd
 app-crypt/certbot-apache
 app-crypt/cfssl
 app-crypt/jitterentropy-rngd
 app-emulation/libvirt
 app-emulation/virt-manager
 app-emulation/virt-what
+app-eselect/eselect-repository
 app-portage/portage-utils
 app-text/tree
 dev-db/etcd
@@ -33,6 +39,7 @@ dev-util/docker-distribution-pruner
 dev-util/pahole
 dev-util/pkgcheck
 dev-util/radare2
+dev-util/rustup
 media-fonts/droid
 media-fonts/roboto
 media-fonts/takao-fonts
@@ -48,6 +55,7 @@ net-misc/rclone
 sci-libs/scikit-learn
 sys-apps/busybox
 sys-apps/fbset
+sys-apps/inxi
 sys-apps/merge-usr
 sys-apps/most
 sys-block/fio
