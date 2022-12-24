@@ -2,7 +2,6 @@ app-admin/augeas
 app-admin/hddtemp
 app-admin/keepassxc
 app-admin/logrotate
-app-admin/smalltools
 app-admin/sudo
 app-admin/tmpreaper
 app-arch/cabextract

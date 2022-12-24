@@ -9,4 +9,3 @@ virtual/wireguard -module
 sys-fs/zfs kernel-builtin
 
 # for backups
-app-admin/smalltools zfs
