@@ -1,0 +1,12 @@
+sys-apps/lm-sensors sensord
+sys-apps/smartmontools -caps -daemon
+sys-apps/usbutils -python
+sys-boot/grub -truetype libzfs mount
+sys-kernel/dracut crypt mdraid syslog
+
+# modules are built in a different container
+virtual/wireguard -module
+sys-fs/zfs kernel-builtin
+
+# for backups
+app-admin/smalltools zfs

@@ -1,0 +1,4 @@
+net-misc/curl http2 idn
+
+sys-apps/systemd -cryptsetup
+

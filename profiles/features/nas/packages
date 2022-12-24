@@ -1,0 +1,5 @@
+dev-python/psutil
+net-fs/cifs-utils
+net-fs/s3fs
+net-fs/samba
+net-misc/rclone

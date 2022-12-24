@@ -1,0 +1,11 @@
+<app-crypt/cfssl-9999 amd64
+<app-containers/containerd-9999 amd64
+<app-containers/cri-tools-9999 amd64
+<dev-db/etcd-9999 amd64
+<app-containers/cni-plugins-9999 amd64
+<sys-apps/most-9999 amd64
+<sys-cluster/kubernetes-9999 amd64
+
+# kubernetes 1.19 require go 1.15
+<dev-lang/go-1.16 amd64
+

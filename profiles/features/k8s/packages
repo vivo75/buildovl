@@ -1,0 +1,25 @@
+# Kubernetes & co
+app-crypt/cfssl
+app-containers/containerd
+app-containers/cri-tools
+dev-db/etcd
+app-containers/cni-plugins
+sys-apps/most
+sys-cluster/kubeadm
+sys-cluster/kube-apiserver
+sys-cluster/kube-controller-manager
+sys-cluster/kubectl
+sys-cluster/kubelet
+sys-cluster/kubeletctl
+sys-cluster/kube-proxy
+sys-cluster/kube-router
+sys-cluster/kube-scheduler
+sys-cluster/k3s
+sys-cluster/cilium-cli
+
+# globally useful packages
+app-crypt/certbot
+net-misc/socat
+dev-db/mysql-connector-c
+app-admin/sudo
+

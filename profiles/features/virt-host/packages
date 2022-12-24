@@ -1,0 +1,5 @@
+app-containers/lxc
+dev-python/python3-lxc
+app-containers/lxd
+app-emulation/qemu
+sys-fs/lxcfs
