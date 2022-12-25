@@ -53,3 +53,34 @@ sci-visualization/gnuplot qt5
 dev-python/matplotlib qt5
 dev-python/PyQt5 gui widgets
 
+# media-libs/virglrenderer FTB
+app-emulation/qemu -virgl -static-user -ssh gnutls
+
+# problem emerging a bunch of other packages w/o py
+dev-libs/libxml2 python
+
+# will not use pam with it
+sys-apps/busybox -pam
+
+# require pam
+sys-apps/util-linux -su
+
+# nice to have
+sys-block/fio aio curl gnuplot io-uring python
+
+# required by app-containers/lxc
+sys-libs/libcap static-libs
+
+# circular dep with media-libs/tiff
+media-libs/libwebp -tiff
+
+# these become dependancies greedy with use=X
+net-analyzer/zabbix -X
+net-analyzer/net-snmp -X
+
+# !unsupported? ( threads? ( !fortran !hl ) )
+sci-libs/hdf5 -fortran -hl
+
+# misc
+dev-python/pandas full-support
+
