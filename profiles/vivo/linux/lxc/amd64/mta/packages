@@ -7,6 +7,7 @@ mail-filter/opendkim
 mail-filter/opendmarc
 mail-filter/rspamd
 mail-mta/postfix
+net-dns/bind-tools
 net-libs/libnsl
 net-mail/dovecot
 
@@ -18,4 +19,7 @@ mail-filter/spamassassin
 
 # Antivirus
 app-antivirus/clamav
-app-antivirus/clamav-unofficial-sigs
+# unmantained app-antivirus/clamav-unofficial-sigs
+
+# Backup
+app-admin/smalltools
