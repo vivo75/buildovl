@@ -12,6 +12,10 @@
 # @MAINTAINER: me@francesco-riosa.com
 amd64		vivo/linux/default/systemd/wsl					stable
 
+# multi purpose server
+# @MAINTAINER: me@francesco-riosa.com
+amd64		vivo/linux/default/systemd/server				stable
+
 # vim: set ts=8 noet ft=conf:
 
 # Local Variables:
