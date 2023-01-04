@@ -2,6 +2,7 @@
 sys-fs/zfs-auto-snapshot -minimal
 sys-fs/zfs python
 
+app-admin/smalltools zfs
 app-emulation/libvirt fuse libssh lxc numa pcap virt-network zfs
 app-misc/ca-certificates -cacert
 dev-db/mariadb -client-libs innodb-lz4 profiling rocksdb oqgraph
