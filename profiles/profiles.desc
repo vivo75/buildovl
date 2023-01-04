@@ -16,6 +16,9 @@ amd64		vivo/linux/default/systemd/wsl					stable
 # @MAINTAINER: me@francesco-riosa.com
 amd64		vivo/linux/default/systemd/server				stable
 
+# LXC containers
+amd64		vivo/linux/lxc/amd64/mta					stable
+
 # vim: set ts=8 noet ft=conf:
 
 # Local Variables:
