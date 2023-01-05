@@ -35,4 +35,3 @@ dev-php/pecl-redis
 app-admin/sudo
 dev-db/redis
 # net-mail/up-imapproxy  1.2.7 does not work with openssl-1.1
-www-servers/uwsgi

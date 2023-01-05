@@ -5,7 +5,6 @@ dev-php/pecl-redis session igbinary
 net-misc/curl http2 idn
 www-misc/awstats geoip
 www-servers/apache ssl threads
-www-servers/uwsgi apache2
 
 # req by Fox ; TODO: webp, tiff
 media-gfx/imagemagick corefonts fftw fontconfig jpeg png postscript svg truetype webp xml
