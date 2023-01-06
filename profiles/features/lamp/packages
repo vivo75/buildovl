@@ -25,10 +25,9 @@ dev-db/mysql-connector-c
 www-servers/apache
 
 # php pecl additions (also used by Nextcloud)
-dev-php/pecl-apcu
-dev-php/pecl-imagick
+#dev-php/pecl-imagick
 #dev-php/pecl-memcached
-dev-php/pecl-redis
+#dev-php/pecl-redis
 #dev-php/pecl-geoip only php < 7.4
 
 # useful for Nextcloud
