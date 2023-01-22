@@ -1,2 +1,6 @@
 # required for google chrome
 >=app-text/ghostscript-gpl-9.09 cups
+
+# dependency required by "www-servers/nginx-1.23.2-r3::gentoo"
+app-misc/mime-types nginx
+
