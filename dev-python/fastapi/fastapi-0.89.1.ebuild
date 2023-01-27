@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{8..10} )
+PYTHON_COMPAT=( python3_{8..11} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1
 
@@ -18,5 +18,11 @@ KEYWORDS="~amd64"
 RESTRICT="test"
 
 RDEPEND="dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	dev-python/pydantic[${PYTHON_USEDEP}]
+	dev-python/httpx[${PYTHON_USEDEP}]
+	dev-python/python-multipart[${PYTHON_USEDEP}]
+	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
+	dev-python/ujson[${PYTHON_USEDEP}]
+	"
 
