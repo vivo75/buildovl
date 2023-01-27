@@ -4,6 +4,7 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
+DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1
 
 DESCRIPTION="FastAPI framework, high performance, easy to learn"
@@ -19,4 +20,3 @@ RESTRICT="test"
 RDEPEND="dev-python/starlette[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]"
 
-DISTUTILS_USE_SETUPTOOLS=pyproject.toml
