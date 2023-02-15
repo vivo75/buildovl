@@ -191,7 +191,7 @@ net-misc/rclone
 net-misc/rdesktop
 net-misc/sshpass
 net-misc/whois
-net-misc/youtube-dl
+net-misc/yt-dlp
 net-print/cups-pdf
 net-print/hplip
 net-vpn/networkmanager-openvpn
