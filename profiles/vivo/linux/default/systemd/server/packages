@@ -13,7 +13,6 @@ app-emulation/libvirt
 app-misc/yq
 app-portage/portage-utils
 dev-db/mariadb
-dev-python/podman-py
 dev-util/pahole
 dev-util/pkgcheck
 net-ftp/ncftp

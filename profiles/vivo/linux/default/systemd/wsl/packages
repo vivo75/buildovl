@@ -32,7 +32,6 @@ dev-db/mariadb
 dev-db/sqlitebrowser
 dev-python/docker-py
 dev-python/dockerpty
-dev-python/podman-py
 dev-python/selenium
 dev-python/sqlalchemy
 dev-util/docker-distribution-pruner
