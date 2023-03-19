@@ -1,5 +1,5 @@
 app-admin/ansible-lint
-app-admin/awscli
+app-admin/awscli-bin
 app-admin/helm
 app-admin/mongo-tools
 app-admin/sops
