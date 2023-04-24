@@ -57,7 +57,7 @@ sys-apps/fbset
 sys-apps/inxi
 sys-apps/merge-usr
 sys-apps/most
-sys-block/fio
+#sys-block/fio
 sys-block/open-iscsi
 sys-block/targetcli-fb
 sys-cluster/k3s
