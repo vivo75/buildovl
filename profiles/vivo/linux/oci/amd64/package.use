@@ -1,0 +1,3 @@
+# sligtly faster build and it's cached in lxc-base
+sys-devel/gcc lto pgo
+
