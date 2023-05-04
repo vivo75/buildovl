@@ -1,0 +1,2 @@
+dev-db/mariadb backup -pam perl server bindist galera innodb-lz4 innodb-lzo odbc oqgraph profiling rocksdb s3 sst-mariabackup sst-rsync static xml yassl
+sys-libs/ncurses static-libs

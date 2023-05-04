@@ -1,0 +1,7 @@
+app-admin/sudo
+dev-db/mariadb
+dev-db/mysql-connector-c
+dev-db/redis
+dev-libs/elfutils
+dev-python/pymysql
+net-misc/socat
