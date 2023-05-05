@@ -78,10 +78,8 @@ VERIFY_SIG_OPENPGP_KEY_PATH=${BROOT}/usr/share/openpgp-keys/linuxcontainers.asc
 # make: *** [Makefile:156: check] Error 1
 RESTRICT="test"
 
+S="${WORKDIR}"/lxd-5.13
 GOPATH="${S}/_dist"
-
-PATCHES=( "${FILESDIR}"/lxd-5.0.2-remove-shellcheck-buildsystem-checks.patch
-	"${FILESDIR}"/lxd-5.0.3-btrfs-quota-group-fix.patch )
 
 src_prepare() {
 	export GOPATH="${S}/_dist"
