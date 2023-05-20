@@ -31,7 +31,6 @@ app-misc/ca-certificates -cacert
 app-misc/jq oniguruma
 app-office/kmymoney calendar quotes
 app-office/libreoffice  -bluetooth branding cups dbus -gtk java -kde gtk3 mysql googledrive odk
-app-portage/layman git
 app-text/ghostscript-gpl X
 app-text/poppler qt5 -qt4
 >=app-text/texlive-core-2017-r2 xetex
