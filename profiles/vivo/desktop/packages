@@ -264,7 +264,6 @@ www-servers/gunicorn
 www-servers/nginx
 x11-apps/appres
 x11-apps/mesa-progs
-x11-apps/scripts
 x11-apps/xcursorgen
 x11-apps/xdpyinfo
 x11-apps/xdriinfo
