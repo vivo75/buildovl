@@ -2,7 +2,7 @@
 app-admin/salt openssl
 net-fs/nfs-utils nfsv4 nfsv41
 dev-python/pyyaml libyaml
-net-misc/openssh hpn
+net-misc/openssh -hpn -X509
 sys-apps/openrc tools
 net-misc/lldpd seccomp
 dev-libs/liblogging rfc3195
