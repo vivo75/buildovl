@@ -30,7 +30,6 @@ app-text/tree
 dev-db/etcd
 dev-db/mariadb
 dev-db/sqlitebrowser
-dev-python/docker-py
 dev-python/dockerpty
 dev-python/selenium
 dev-python/sqlalchemy
