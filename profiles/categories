@@ -3,6 +3,7 @@ acct-user
 app-admin
 app-containers
 app-crypt
+app-text
 dev-python
 net-misc
 sys-libs
