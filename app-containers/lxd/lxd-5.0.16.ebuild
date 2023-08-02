@@ -7,8 +7,9 @@ inherit bash-completion-r1 go-module linux-info optfeature systemd verify-sig
 
 DESCRIPTION="Modern, secure and powerful system container and virtual machine manager"
 HOMEPAGE="https://linuxcontainers.org/lxd/introduction/ https://github.com/lxc/lxd"
-SRC_URI="https://linuxcontainers.org/downloads/lxd/lxd-5.13.tar.gz
-	verify-sig? ( https://linuxcontainers.org/downloads/lxd/lxd-5.13.tar.gz.asc )"
+#SRC_URI="https://linuxcontainers.org/downloads/lxd/lxd-5.16.tar.gz
+SRC_URI="https://github.com/canonical/lxd/releases/download/lxd-5.16/lxd-5.16.tar.gz
+	verify-sig? ( https://github.com/canonical/lxd/releases/download/lxd-5.16/lxd-5.16.tar.gz.asc )"
 
 LICENSE="Apache-2.0 BSD LGPL-3 MIT"
 SLOT="0"
@@ -78,7 +79,7 @@ VERIFY_SIG_OPENPGP_KEY_PATH=${BROOT}/usr/share/openpgp-keys/linuxcontainers.asc
 # make: *** [Makefile:156: check] Error 1
 RESTRICT="test"
 
-S="${WORKDIR}"/lxd-5.13
+S="${WORKDIR}"/lxd-5.16
 GOPATH="${S}/_dist"
 
 src_prepare() {
