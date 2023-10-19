@@ -104,7 +104,6 @@ gnome-extra/nm-applet -modemmanager
 kde-apps/akonadi  sqlite tools
 kde-apps/kdegraphics-meta scanner
 kde-apps/kdeutils-meta -qt4
-kde-apps/khelpcenter handbook
 kde-apps/kio-extras mtp
 kde-apps/kolourpaint scanner
 kde-apps/okular -image-backend -postscript epub markdown mobi mobile pdf share
