@@ -172,7 +172,6 @@ media-sound/pulseaudio -qt4
 media-video/ffmpeg        -nvenc fontconfig vpx webp theora lzma faac  ogg vorbis kde matroska mpeg musepack opencv qt5 xml dts dvb fdk pulseaudio rtsp schroedinger x265 tremor opus httpd lua live rdp v4l vlm vnc sdl  openh264
 ~media-video/mpv-0.27.0 -vaapi
 media-video/nvidia_video_sdk tools
-media-video/transcode quicktime
 media-video/vlc       dbus ogg vorbis -kde matroska mpeg musepack opencv qt5 xml dts dvb fdk pulseaudio rtsp schroedinger x265 tremor opus httpd lua live -rdp v4l vlm vnc
 net-analyzer/nmap ncat ndiff nmap-update nping zenmap
 net-dns/dnsmasq tftp

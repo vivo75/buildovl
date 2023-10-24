@@ -149,7 +149,6 @@ media-sound/mpg123
 media-sound/qjackctl
 media-video/mplayer
 media-video/mpv
-media-video/transcode
 media-video/vlc
 net-analyzer/arp-scan
 net-analyzer/dhcp_probe
