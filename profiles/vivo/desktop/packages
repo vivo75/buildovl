@@ -86,7 +86,6 @@ dev-vcs/tig
 kde-apps/akonadi-import-wizard
 kde-apps/akonadiconsole
 kde-apps/dolphin-plugins-git
-kde-apps/dragon
 kde-apps/kapptemplate
 kde-apps/kate
 kde-apps/kcachegrind
@@ -149,7 +148,6 @@ media-sound/mpg123
 media-sound/qjackctl
 media-video/mplayer
 media-video/mpv
-media-video/vlc
 net-analyzer/arp-scan
 net-analyzer/dhcp_probe
 net-analyzer/dhcpdump
