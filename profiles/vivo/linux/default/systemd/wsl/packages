@@ -2,7 +2,6 @@ app-admin/ansible-lint
 app-admin/awscli-bin
 app-admin/helm
 app-admin/mongo-tools
-app-admin/sops
 app-admin/syslog-ng
 app-admin/terraform
 app-arch/pigz
