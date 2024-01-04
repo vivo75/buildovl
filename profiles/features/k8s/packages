@@ -1,5 +1,5 @@
 # Kubernetes & co
-app-crypt/cfssl
+#app-crypt/cfssl
 app-containers/containerd
 app-containers/cri-tools
 dev-db/etcd

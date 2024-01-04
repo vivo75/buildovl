@@ -8,7 +8,6 @@ app-containers/cri-tools
 app-containers/podman
 app-containers/skopeo
 app-crypt/certbot-apache
-app-crypt/cfssl
 app-emulation/libvirt
 app-misc/yq
 app-portage/portage-utils
