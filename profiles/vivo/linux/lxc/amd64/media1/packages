@@ -82,7 +82,7 @@ sys-apps/miscfiles
 sys-apps/mlocate
 sys-apps/xinetd
 sys-devel/bc
-sys-devel/gdb
+dev-debug/gdb
 sys-fs/squashfs-tools
 sys-process/htop
 sys-process/time

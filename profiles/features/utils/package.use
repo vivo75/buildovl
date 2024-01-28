@@ -3,7 +3,7 @@
 dev-python/netaddr -cli
 
 # gdb has useful additions written in python
-sys-devel/gdb python
+dev-debug/gdb python
 
 # only a minimal browser is required
 www-client/elinks -X -bzip2 -gpm -mouse ipv6 nls ssl unicode xml zlib

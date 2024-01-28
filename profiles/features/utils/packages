@@ -18,7 +18,7 @@ net-misc/iputils
 sys-apps/mlocate
 sys-apps/pv
 sys-devel/bc
-sys-devel/gdb
+dev-debug/gdb
 sys-process/cronie
 sys-process/lsof
 sys-process/time
