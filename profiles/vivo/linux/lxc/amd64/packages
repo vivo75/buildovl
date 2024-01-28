@@ -37,7 +37,7 @@ app-admin/rsyslog
 # -*sys-devel/binutils
 # -*sys-devel/gcc
 # -*sys-devel/gnuconfig
-# -*sys-devel/make
+# -*dev-build/make
 # -*sys-devel/patch
 # -*virtual/os-headers
  

@@ -44,7 +44,7 @@
 -*sys-devel/gnuconfig
 -*sys-devel/lld
 -*sys-devel/llvm
--*sys-devel/make
+-*dev-build/make
 -*sys-devel/native-cctools
 -*sys-devel/patch
 -*sys-fs/e2fsprogs
