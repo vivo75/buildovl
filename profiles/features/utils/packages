@@ -1,4 +1,3 @@
-app-admin/ansible
 app-admin/logrotate
 app-admin/sudo
 app-crypt/easy-rsa
@@ -9,6 +8,7 @@ app-misc/jq
 app-misc/symlinks
 app-misc/tmux
 dev-db/sqlite
+dev-debug/gdb
 dev-lang/lua
 dev-python/pymysql
 dev-python/virtualenv

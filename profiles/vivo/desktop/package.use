@@ -39,6 +39,7 @@ dev-db/mariadb -client-libs innodb-lz4 rocksdb oqgraph
 dev-db/postgresql llvm perl python uuid
 dev-db/sqlite secure-delete
 dev-db/unixODBC -minimal
+dev-debug/gdb lzma expat
 dev-java/icedtea-bin nsplugin
 dev-java/icedtea nsplugin infinality
 >=dev-java/icedtea-web-1.6.1-r1 nsplugin
