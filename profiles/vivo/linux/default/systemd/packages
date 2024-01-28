@@ -1,6 +1,3 @@
-# managment
-app-admin/ansible
-
 # monitoring (by default install only the client)
 net-analyzer/zabbix
 
