@@ -79,7 +79,7 @@ dev-util/radare2
 dev-util/source-highlight
 dev-util/squashdelta
 dev-util/squashmerge
-dev-util/strace
+dev-debug/strace
 dev-util/valgrind
 dev-vcs/tig
 kde-apps/akonadi-import-wizard

@@ -10,7 +10,7 @@ dev-python/ipython -smp
 net-misc/openssh -ssh1
 net-nds/rpcbind warmstarts
 net-dns/bind-tools seccomp
-dev-util/strace -unwind elfutils
+dev-debug/strace -unwind elfutils
 
 # we want to be able to build a partially static perf
 sys-libs/binutils-libs static-libs

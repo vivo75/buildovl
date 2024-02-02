@@ -51,7 +51,7 @@ dev-python/werkzeug
 dev-qt/qtnetwork
 dev-util/dialog
 dev-util/diffstat
-dev-util/strace
+dev-debug/strace
 dev-vcs/cvs
 gnome-extra/libgsf
 mail-mta/postfix
