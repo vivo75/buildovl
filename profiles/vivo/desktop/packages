@@ -71,7 +71,6 @@ dev-python/texttable
 dev-python/virtualenv
 dev-tcltk/expect-lite
 dev-util/bcc
-dev-util/cgdb
 dev-util/clinfo
 dev-util/cscope
 dev-util/debootstrap

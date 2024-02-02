@@ -4,9 +4,9 @@ app-forensics/aide
 app-forensics/chkrootkit
 app-forensics/lynis
 app-forensics/unhide
-dev-util/ltrace
+dev-debug/ltrace
+dev-debug/strace
 dev-util/lttng-tools
-dev-util/strace
 sys-apps/dstat
 sys-apps/ethtool
 sys-apps/lshw
