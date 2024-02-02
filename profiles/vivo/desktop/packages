@@ -80,7 +80,7 @@ dev-util/source-highlight
 dev-util/squashdelta
 dev-util/squashmerge
 dev-debug/strace
-dev-util/valgrind
+dev-debug/valgrind
 dev-vcs/tig
 kde-apps/akonadi-import-wizard
 kde-apps/akonadiconsole
