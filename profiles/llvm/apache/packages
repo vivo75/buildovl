@@ -1,0 +1,14 @@
+app-text/htmltidy
+app-vim/nginx-syntax
+dev-lang/python
+dev-php/pecl-apcu
+dev-php/pecl-imagick
+dev-php/pecl-oauth
+dev-php/pecl-redis
+dev-php/pecl-stomp
+dev-php/pecl-uploadprogress
+mail-client/s-nail
+net-vpn/wireguard-tools
+www-apps/nextcloud-notify_push
+www-servers/caddy
+www-servers/nginx

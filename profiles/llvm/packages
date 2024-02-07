@@ -1,0 +1,49 @@
+# Copyright 2004-2021 Gentoo Authors.
+# Distributed under the terms of the GNU General Public License v2
+
+# This file extends the base packages file for the default profile that all
+# architectures will enjoy.  Please note that default is what most architectures
+# will have.  Some will have an selinux profile (see ${PORTDIR}/profiles/selinux).
+# The idea is to only create a new family of profiles when absolutely necessary.
+
+-*sys-apps/kbd
+-*sys-apps/kmod
+-*sys-apps/man-pages
+-*sys-apps/net-tools
+-*sys-fs/udev-init-scripts
+-*virtual/dev-manager
+-*virtual/man
+-*virtual/ssh
+-*virtual/udev
+
+# some useful packages
+app-admin/logrotate
+app-admin/sudo
+app-crypt/easy-rsa
+app-crypt/gpgme
+app-editors/vim
+app-emulation/cloud-init
+app-misc/colordiff
+app-misc/jq
+app-misc/symlinks
+app-misc/tmux
+dev-db/sqlite
+dev-debug/gdb
+dev-lang/lua
+dev-python/pymysql
+dev-python/virtualenv
+dev-vcs/git
+mail-mta/msmtp
+net-misc/iputils
+sys-apps/mlocate
+sys-apps/pv
+sys-devel/bc
+sys-libs/compiler-rt-sanitizers
+sys-process/cronie
+sys-process/lsof
+sys-process/time
+www-client/w3m
+
+# gentoo very useful utilities
+app-portage/eix
+app-portage/gentoolkit

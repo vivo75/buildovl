@@ -1,0 +1,27 @@
+-mail-mta/ssmtp
+-mail-mta/msmtp
+
+# FTB with clang
+-net-dns/bind-tools
+
+dev-db/mariadb
+dev-db/mysql-connector-c
+dev-db/redis
+mail-filter/opendkim
+mail-filter/opendmarc
+mail-filter/rspamd
+mail-mta/postfix
+net-dns/bind-tools
+net-libs/libnsl
+net-mail/dovecot
+
+# Antispam
+mail-filter/amavisd-new
+mail-filter/razor
+mail-filter/rspamd
+mail-filter/spamassassin
+
+# Antivirus
+app-antivirus/clamav
+# unmantained app-antivirus/clamav-unofficial-sigs
+

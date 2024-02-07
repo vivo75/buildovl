@@ -1,0 +1,6 @@
+<mail-mta/postfix-9999 amd64
+<net-mail/dovecot-9999 amd64
+<mail-filter/amavisd-new-9999 amd64
+<mail-filter/spamassassin-9999 amd64
+<mail-filter/rspamd-9999 amd64
+<app-antivirus/clamav-9999 amd64

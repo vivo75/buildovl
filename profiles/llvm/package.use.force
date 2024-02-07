@@ -1,0 +1,25 @@
+# Copyright 1999-2023 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+# Michał Górny <mgorny@gentoo.org> (2023-10-06)
+# Undo multilib forcing.
+dev-libs/libatomic_ops -abi_x86_32
+dev-libs/boehm-gc -abi_x86_32
+
+# Michał Górny <mgorny@gentoo.org> (2017-04-08)
+# Undo multilib forcing.
+sys-apps/sandbox -abi_x86_32
+
+dev-libs/libffi -abi_x86_32
+dev-libs/libxml2 -abi_x86_32
+sys-devel/clang -abi_x86_32
+sys-devel/clang-runtime -abi_x86_32
+sys-devel/llvm -abi_x86_32
+sys-libs/compiler-rt -abi_x86_32
+sys-libs/libcxxabi -abi_x86_32
+sys-libs/libcxx -abi_x86_32
+sys-libs/libunwind -abi_x86_32
+sys-libs/llvm-libunwind -abi_x86_32
+sys-libs/ncurses -abi_x86_32
+sys-libs/zlib -abi_x86_32
+
