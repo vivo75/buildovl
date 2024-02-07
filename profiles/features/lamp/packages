@@ -16,7 +16,6 @@ dev-util/source-highlight
 media-gfx/dcraw
 media-gfx/imagemagick
 media-libs/gd
-net-dns/bind-tools
 net-misc/curl
 net-misc/memcached
 net-misc/socat
