@@ -5,6 +5,7 @@ app-crypt/certbot-apache
 app-text/htmldoc
 dev-lang/php
 dev-libs/elfutils
+dev-libs/fcgi
 dev-libs/libmemcached
 dev-php/composer
 dev-php/PEAR-Auth_SASL
