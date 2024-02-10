@@ -236,7 +236,6 @@ sys-fs/xfsprogs
 sys-fs/zfs
 sys-kernel/dracut
 sys-kernel/linux-firmware
-sys-libs/libhugetlbfs
 sys-libs/libomp
 sys-power/acpid
 sys-power/apcupsd

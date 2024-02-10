@@ -20,7 +20,6 @@ sys-fs/mdadm
 sys-fs/sysfsutils
 sys-fs/zfs
 sys-kernel/dracut
-sys-libs/libhugetlbfs
 sys-power/acpid
 sys-power/powertop
 sys-process/numad
