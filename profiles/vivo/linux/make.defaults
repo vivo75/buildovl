@@ -1,10 +1,13 @@
 ABI_X86="-32 64"
-CHOST="x86_64-pc-linux-gnu"
-CFLAGS="-O3 -pipe -march=znver2 -mtune=znver3 -frecord-gcc-switches -fdiagnostics-color=never"
-CXXFLAGS="-O3 -pipe -march=znver2 -mtune=znver3 -frecord-gcc-switches -fdiagnostics-color=never"
-FCFLAGS="-O3 -pipe -march=znver2 -mtune=znver3"
-FFLAGS="-O3 -pipe -march=znver2 -mtune=znver3"
-CPU_FLAGS_X86="aes avx f16c mmx mmxext pclmul popcnt sse sse2 sse3 sse4_1 sse4_2 ssse3"
+
+COMMON_FLAGS="-O3 -pipe -march=znver2 -mtune=znver3 -frecord-gcc-switches -fdiagnostics-color=never"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+LDFLAGS="-v ${LDFLAGS} -Wl,-O2 -Wl,--as-needed -Wl,-z,pack-relative-relocs -Wl,-z,relro -Wl,-z,now"
+
+CPU_FLAGS_X86="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt rdrand sha sse sse2 sse3 sse4_1 sse4_2 sse4a ssse3"
 CMAKE_MAKEFILE_GENERATOR="ninja"
 
 # Define the default portage feature set.
@@ -12,7 +15,7 @@ FEATURES="distlocks parallel-fetch sign test-fail-continue userpriv usersandbox"
 FEATURES="${FEATURES} compress-build-logs ebuild-locks fail-clean multilib-strict"
 FEATURES="${FEATURES} split-elog split-log splitdebug compressdebug"
 FEATURES="${FEATURES} unknown-features-warn unmerge-logs noinfo usersync xattr"
-FEATURES="${FEATURES} -merge-sync"
+FEATURES="${FEATURES} binpkg-signing gpg-keepalive -merge-sync"
 
 # Log eqawarn messages
 PORTAGE_ELOG_CLASSES="warn error log qa"
@@ -31,7 +34,7 @@ USE="${USE} lz4 zlib xattr sse2 sse3 ssl sqlite udev zstd"
 
 # This sets the language of build output to English.
 # Please keep this setting intact when reporting bugs.
-LC_MESSAGES=C
+LC_MESSAGES=C.utf8
 L10N="en"
 LINGUAS="en"
 
@@ -40,9 +43,6 @@ CONFIG_PROTECT_MASK="/etc/mtab"
 
 # booting
 GRUB_PLATFORMS="efi-64 efi-32 pc qemu"
-
-# extra USE_EXPAND variables
-#USE_EXPAND="TEMPLATES"
 
 # set videocards to dummy and qemu, will be unused most of the times
 VIDEO_CARDS="ast cirrus dummy qxl"
