@@ -18,6 +18,12 @@ amd64		vivo/linux/default/systemd/server				stable
 
 # LXC containers
 amd64		vivo/linux/lxc/amd64/mta					stable
+amd64		vivo/linux/lxc/amd64/mysql					stable
+amd64		llvm/apache							stable
+amd64		llvm/mta							stable
+
+# OCI containers
+amd64		vivo/linux/oci/amd64/mariadb					stable
 
 # vim: set ts=8 noet ft=conf:
 
