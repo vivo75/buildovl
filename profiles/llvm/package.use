@@ -1,3 +1,16 @@
 # reduce disk/dep usage
 dev-vcs/git -perl -webdav curl
 
+# gcc only used for glibc, keep it minimal
+sys-devel/gcc -fortran -graphite -lto -multilib -nls -openmp -pgo default-stack-clash-protection default-znow
+
+# minimal, try to avoid gcc dependency
+sys-libs/compiler-rt-sanitizers orc profile scudo -asan -cfi -dfsan -gwp-asan -hwasan -libfuzzer -lsan -memprof -msan -safestack -tsan -ubsan -xray
+
+# FTB sys-devel/gcc-13.2.1_p20240113-r1:13/13
+sys-devel/gcc -hardened
+
+# sys-libs/db-5.3.28-r9 seem to require gold linker plugin
+sys-devel/llvm binutils-plugin
+sys-devel/binutils gold
+

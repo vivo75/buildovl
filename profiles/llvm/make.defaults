@@ -11,11 +11,10 @@ FCFLAGS="${COMMON_FLAGS}"
 FFLAGS="${COMMON_FLAGS}"
 LDFLAGS="-v ${LDFLAGS} -Wl,-O2 -Wl,--as-needed -Wl,-z,pack-relative-relocs -Wl,-z,relro -Wl,-z,now"
 
-EMERGE_DEFAULT_OPTS="--binpkg-respect-use=y"
+EMERGE_DEFAULT_OPTS="--usepkg=n --getbinpkg=y --binpkg-respect-use=y --ask-enter-invalid"
 DISTDIR="/.gentoo/cache/distfiles"
 PKGDIR="/.gentoo/cache/binpkgs"
-KBUILD_OUTPUT="/usr/src/build-serv"
-LUA_TARGETS=luajit
+KBUILD_OUTPUT="/usr/src/build"
 
 ABI_X86="-32 64"
 CMAKE_MAKEFILE_GENERATOR="ninja"
@@ -34,11 +33,6 @@ PORTAGE_COMPRESS="zstd"
 
 # Allow installation of any packages, regardless of LICENSE setting.
 ACCEPT_LICENSE="*"
-
-# USE flags modified globally
-USE="${USE} -cups -nls -gnutls -gpm -python"
-USE="${USE} bash-completion bzip2 mmx snmp caps vim-syntax acpi lzma threads"
-USE="${USE} lz4 zlib xattr sse2 sse3 ssl sqlite udev zstd"
 
 # Define the default portage feature set.
 
@@ -64,6 +58,8 @@ QEMU_SOFTMMU_TARGETS="x86_64 aarch64 arm"
 APACHE2_MODULES="${APACHE2_MODULES} macro proxy proxy_ajp proxy_balancer proxy_connect proxy_fcgi"
 APACHE2_MODULES="${APACHE2_MODULES} proxy_html proxy_http proxy_http2 proxy_wstunnel ratelimit"
 APACHE2_MODULES="${APACHE2_MODULES} remoteip slotmem_shm substitute xml2enc"
+LUA_TARGETS=luajit
+LUA_SINGLE_TARGET="luajit"
 
 PORTAGE_ELOG_SYSTEM="save"
 PORT_LOGDIR="/var/log/portage"
@@ -77,5 +73,23 @@ BINPKG_COMPRESS="zstd"
 BINPKG_COMPRESS_FLAGS_ZSTD="--rm --long --threads=8 --adapt=min=7,max=19"
 BINPKG_GPG_SIGNING_GPG_HOME="/.gentoo/repos/gnupg"
 BINPKG_GPG_SIGNING_KEY="0xCDF9E7BBBFF3FD1A"
+
+ABI_X86="-32"
+LUA_SINGLE_TARGET="-* luajit"
+LUA_TARGETS="-* luajit"
+PYTHON_SINGLE_TARGET="-* python3_11"
+PYTHON_TARGETS="-* python3_11"
+RUBY_TARGETS="-*"
+PHP_TARGETS="php8-1"
+POSTGRES_TARGETS="-* postgres16"
+CPU_FLAGS_X86="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt rdrand sha sse sse2 sse3 sse4_1 sse4_2 sse4a ssse3"
+
+USE="${USE} -berkdb -bindist -cramfs -cups -dhcp -e2fsprogs -gdbm -gnutls -gpm"
+USE="${USE} -installkernel -iptables -keyutils -kmod -netifrc -nls -python"
+USE="${USE} -smartcard -tftp -udev -webengine"
+USE="${USE} acpi bash-completion bzip2 caps cfi cxx hardened kerberos lto lz4"
+USE="${USE} lzma openmp orc pgo profile snmp sqlite sse2 sse3 ssl threads"
+USE="${USE} unicode vim-syntax xattr zfs zlib zstd"
+
 
 # vim: setlocal filetype=gentoo-make-conf :

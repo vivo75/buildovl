@@ -16,6 +16,9 @@
 -*virtual/ssh
 -*virtual/udev
 
+# Clang goes crazy if gcc is missing
+sys-devel/gcc
+
 # some useful packages
 app-admin/logrotate
 app-admin/sudo

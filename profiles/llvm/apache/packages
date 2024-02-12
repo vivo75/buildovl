@@ -12,3 +12,4 @@ net-vpn/wireguard-tools
 www-apps/nextcloud-notify_push
 www-servers/caddy
 www-servers/nginx
+sci-geosciences/gpsbabel
