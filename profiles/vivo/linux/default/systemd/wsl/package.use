@@ -84,3 +84,12 @@ sci-libs/hdf5 -fortran -hl
 # misc
 dev-python/pandas full-support
 
+# DEP www-servers/nginx-1.25.3
+app-misc/mime-types nginx
+
+# DEP sys-apps/apparmor-utils
+sys-libs/libapparmor python
+
+# DEP app-crypt/swtpm
+net-libs/gnutls pkcs11
+

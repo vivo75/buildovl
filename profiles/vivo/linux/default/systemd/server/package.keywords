@@ -1,19 +1,16 @@
-<app-antivirus/clamav-unofficial-sigs-9999 amd64
-<app-forensics/lynis-9999 amd64
-<dev-go/go-crypto-9999 amd64
-<dev-go/go-net-9999 amd64
-<dev-go/go-text-9999 amd64
-<dev-lang/tcc-9999 amd64
-<net-analyzer/zabbix-5
-<net-misc/netpipe-9999 amd64
-<net-vpn/openvpn-9999 amd64
-<sys-block/megamgr-9999 amd64
-<sys-block/megarc-9999 amd64
-<sys-block/thin-provisioning-tools-9999 amd64
-<dev-util/lttng-tools-9999 amd64
-<dev-util/lttng-ust-9999 amd64
-<sys-fs/lvm2-9999 amd64
-<sys-fs/zfs-9999 amd64
+<app-containers/runc-1.1.10 amd64
+<app-containers/conmon-2.1.11 amd64
+<app-containers/containerd-1.7.9 amd64
+<app-containers/lxd-5.21 amd64
 
-# backup
-<sys-fs/zfs-auto-snapshot-9999 amd64
+~sys-cluster/k3s-1.25.4_p1 amd64
+~app-emulation/virtiofsd-1.10.0 amd64
+~net-misc/wsdd-0.7.1 amd64
+~dev-python/podman-4.9.0 amd64
+~app-crypt/sscg-3.0.3 amd64
+~acct-group/wsdd-0 amd64
+~app-misc/yq-3.2.3 amd64
+~app-forensics/lynis-3.0.9 amd64
+~app-admin/cockpit-291 amd64
+~acct-user/wsdd-0 amd64
+

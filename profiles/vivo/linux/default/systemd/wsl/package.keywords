@@ -1,27 +1,20 @@
-<app-crypt/certbot-9999 amd64
-<app-containers/podman-4.4 amd64
-<app-containers/conmon-2.2 amd64
-<app-crypt/acme-2.2 amd64
-<dev-python/setuptools-66 amd64
-<dev-python/jaraco-text-4 amd64
-<dev-python/jaraco-context-5 amd64
-<dev-python/installer-0.7 amd64
-<dev-util/rustup-2 amd64
-<sys-fs/fuse-overlayfs-2 amd64
+~app-admin/awscli-bin-2.13.11 amd64
+~net-analyzer/nikto-2.1.6_p20220602 amd64
+~dev-util/bcc-0.29.1-r1 amd64
+~app-containers/podman-tui-0.14.0 amd64
+~app-containers/cri-o-1.29.0 amd64
+~dev-util/radare2-5.8.8-r1 amd64
+~app-forensics/lynis-3.0.9 amd64
+~dev-util/docker-distribution-pruner-0_p20170401 amd64
+~sys-cluster/k3s-1.25.4_p1 amd64
+~dev-python/fastapi-0.104.1 amd64
+~app-containers/cri-o-1.29.0 amd64
+~sci-libs/scikit-learn-1.3.2 amd64
+~app-crypt/acme-2.8.0 amd64
 
-# backup
-<sys-fs/zfs-auto-snapshot-9999 amd64
+# required by app-containers/containerd-1.7.13::gentoo
+# required by @profile
+# required by @world (argument)
+~app-containers/runc-1.1.12 amd64
 
-# octave
-<dev-python/octave_kernel-9999 amd64
-<app-portage/g-octave-9999 amd64
-<dev-python/metakernel-9999 amd64
-
-# editing
-<app-editors/typora-9999 amd64
-
-# kube
-<sys-cluster/kubeletctl-9999 amd64
-<sys-cluster/cilium-cli-9999 amd64
-<sys-cluster/kube-router-9999 amd64
-
+~app-containers/conmon-2.1.10 amd64

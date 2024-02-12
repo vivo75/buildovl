@@ -1,0 +1,2 @@
+USE="-doc -gpm btrfs elfutils io-uring native-extensions openmp"
+
