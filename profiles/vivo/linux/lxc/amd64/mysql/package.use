@@ -1,5 +1,11 @@
 # required by mariadb
 sys-libs/zlib minizip
 
-dev-db/mariadb -client-libs openssl extraengine perl server xml innodb-lz4 numa oqgraph profiling rocksdb
+dev-db/mariadb -client-libs -columnstore openssl extraengine perl s3 server xml innodb-lz4 numa oqgraph profiling rocksdb
 dev-db/postgresql llvm perl python uuid
+
+# su require pam
+sys-apps/util-linux -su
+
+dev-lang/php fpm mysqli
+
