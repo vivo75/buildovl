@@ -3,3 +3,189 @@
 <app-crypt/certbot-9999 amd64
 <app-crypt/certbot-apache-9999 amd64
 
+# required by dev-php/symfony-event-dispatcher-2.1.0-r1::gentoo
+# required by dev-php/symfony-console-2.7.9-r1::gentoo
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/symfony-dependency-injection-2.8.20 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/spdx-licenses-1.2.0 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/symfony-console-2.7.9-r1 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/symfony-process-3.2.6 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/cli-prompt-1.0.0 amd64
+# required by dev-php/symfony-console-2.7.9-r1::gentoo
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/symfony-event-dispatcher-2.1.0-r1 amd64
+# required by dev-php/symfony-dependency-injection-2.8.20::gentoo
+# required by dev-php/symfony-event-dispatcher-2.1.0-r1::gentoo
+# required by dev-php/symfony-console-2.7.9-r1::gentoo
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/symfony-config-2.8.20 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/semver-1.4.2 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/phar-utils-1.0.0 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/json-schema-4.1.0 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/jsonlint-1.6.0 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/symfony-finder-3.2.8 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/symfony-filesystem-3.2.8 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/psr-log-1.0.2 amd64
+# required by dev-php/composer-1.8.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-php/symfony-console-2.8.48 amd64
+# required by dev-php/composer-1.8.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-php/xdebug-handler-1.3.1 amd64
+# required by dev-php/composer-1.8.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-php/spdx-licenses-1.5.0 amd64
+
+#composer dep
+~dev-php/json-schema-5.2.7
+~dev-php/jsonlint-1.7.1
+~dev-php/phar-utils-1.0.1
+~dev-php/spdx-licenses-1.4.0
+~dev-php/symfony-console-2.8.43
+~dev-php/xdebug-handler-1.3.0
+dev-php/psr-log
+~dev-php/psr-log-1.1.0
+
+dev-python/python-linux-procfs amd64
+
+# required by many packages (udev related)
+sys-apps/hwids amd64
+
+# silent dep
+dev-php/json-schema
+>=dev-php/symfony-filesystem-3.2.8
+>=dev-php/symfony-process-3.2.6
+
+~net-analyzer/rrdtool-1.7.2
+
+# required by dev-lang/lua-5.1.5-r4::gentoo[readline]
+# required by dev-db/redis-4.0.14::gentoo[-luajit]
+# required by @profile
+# required by @world (argument)
+=sys-libs/readline-8.0_p1 amd64
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=sys-devel/bc-1.07.1-r2 amd64
+# required by dev-lang/vala-0.46.3::gentoo
+# required by gnome-base/librsvg-2.40.20::gentoo[vala]
+# required by media-gfx/imagemagick-7.0.9.8::gentoo[svg]
+~dev-libs/vala-common-0.46.5 amd64
+
+# profile
+mail-client/s-nail amd64
+
+# Zivo
+<sys-libs/readline-8.1 amd64
+~sys-devel/bc-1.07.1 amd64
+~dev-libs/vala-common-0.46.5 amd64
+>=sys-apps/ack-3.2.0 amd64
+~dev-python/mkdocs-1.0.1 amd64
+dev-java/javatoolkit amd64
+dev-java/xom amd64
+dev-java/jaxen amd64
+mail-client/s-nail amd64
+dev-python/twisted amd64
+www-servers/tornado amd64
+~sys-libs/db-6.0.35 amd64
+# required by app-emulation/cloud-init (argument)
+app-emulation/cloud-init amd64
+
+# required by certbot
+<app-crypt/acme-9999 amd64
+
+# required by dev-php/composer-2.0.9::gentoo
+=dev-php/reactphp-promise-2.8.0 amd64
+=dev-php/semver-3.2.4 amd64
+=dev-php/symfony-console-2.8.52 amd64
+www-misc/awstats amd64
+
+# old EAPI
+dev-perl/Crypt-OpenSSL-RSA amd64
+
+# required by dev-perl/Crypt-OpenSSL-RSA-0.310.0::gentoo
+# required by dev-perl/Net-DNS-SEC-1.30.0::gentoo
+# required by dev-perl/Net-DNS-1.130.0::gentoo[-minimal]
+# required by www-misc/awstats-7.8-r1::gentoo[ipv6]
+=dev-perl/Crypt-OpenSSL-Guess-0.110.0 amd64
+
+# required by dev-php/composer-2.1.1::gentoo
+>=dev-php/xdebug-handler-2.0.1 amd64
+
+# required by www-apps/nextcloud-notify_push (argument)
+www-apps/nextcloud-notify_push amd64
+
+
+app-admin/ansible amd64
+app-admin/ansible-core amd64
+
+# samba discovery
+net-misc/wsdd amd64
+acct-group/wsdd amd64
+acct-user/wsdd amd64
+
+# various PECL extension
+dev-php/pecl-oauth amd64
+dev-php/pecl-stomp amd64
+dev-php/pecl-uploadprogress amd64
+dev-php/pecl-imagick amd64
+dev-php/pecl-mysqlnd_qc amd64
+dev-php/pecl-gnupg amd64
+dev-php/pecl-uuid amd64
+
+
+# required by app-metrics/nginx-lua-prometheus (argument)
+app-metrics/nginx-lua-prometheus amd64
+
+# required by virtual/perl-CPAN-2.330.0::gentoo
+# required by dev-lang/perl-5.34.1-r4::gentoo[-minimal]
+# required by virtual/perl-Encode-3.170.0::gentoo
+~dev-lang/perl-5.36.0  amd64
+
+>=dev-python/MechanicalSoup-1.2.0 amd64
+>=dev-python/marshmallow-3.19.0 amd64
+>=dev-libs/boost-1.81.0 amd64
+
+# required by dev-python/fastapi (argument)
+=dev-python/fastapi-0.89.1 amd64
+
+# python 3.11
+~app-admin/supervisor-4.2.5 amd64
+
+# required by =fastapi-0.95.1 (argument)
+dev-python/fastapi amd64
+# required by dev-python/pytest-httpbin-2.0.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/httpbin-0.10.1-r3 amd64
+# required by dev-python/shapely (argument)
+=dev-python/shapely-2.0.2 amd64
+
+=www-apps/chromedriver-bin-119.0.6045.105 amd64
+

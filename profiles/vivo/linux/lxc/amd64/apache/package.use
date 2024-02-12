@@ -10,3 +10,87 @@ media-gfx/imagemagick -openmp
 
 # in case we install it
 dev-db/postgresql llvm perl python uuid
+
+dev-lang/php cli sodium webp
+
+sys-apps/util-linux -udev
+media-libs/gd fontconfig jpeg png truetype tiff webp
+
+# firewall is managed outside the container
+sys-apps/iproute2 -iptables
+
+dev-libs/nss cacert utils
+
+# needed by pecl-imagick
+media-gfx/imagemagick -openmp
+
+# sys-apps/hwids udev
+sys-fs/eudev -hwdb
+
+# f1r
+www-servers/apache apache_modules_authn_socache
+
+# Zivo
+sys-process/procps -elogind
+dev-qt/qtgui -libinput
+kde-plasma/kscreenlocker -seccomp
+>=app-text/xmlto-0.0.28-r1 text
+>=media-libs/libglvnd-1.3.1 X
+>=x11-libs/cairo-1.16.0-r3 X
+>=kde-frameworks/kwindowsystem-5.67.0 X
+>=dev-qt/qtcore-5.14.1-r1 icu
+>=media-libs/mesa-19.3.5 wayland
+>=dev-qt/qtgui-5.14.1-r4 egl libinput
+>=dev-libs/libpcre2-10.34 pcre16
+>=x11-libs/libxkbcommon-0.10.0 X
+dev-db/postgresql python
+# required by media-gfx/graphviz-2.42.3::gentoo
+media-libs/libcanberra alsa
+app-text/ghostscript-gpl cups
+
+# required by dev-util/itstool-2.0.6-r1::gentoo[python_single_target_python3_7]
+# required by x11-misc/shared-mime-info-1.15::gentoo
+# required by dev-lang/vala-0.46.7::gentoo
+# required by gnome-base/librsvg-2.40.21::gentoo[vala]
+# required by media-gfx/imagemagick-7.0.10.9::gentoo[svg]
+>=dev-libs/libxml2-2.9.9-r3 python
+
+# required by x11-libs/cairo-1.16.0-r4::gentoo
+# required by media-libs/harfbuzz-2.7.2::gentoo
+# required by x11-libs/pango-1.42.4-r2::gentoo
+# required by gnome-base/librsvg-2.48.8::gentoo
+# required by media-gfx/imagemagick-7.0.10.44::gentoo[svg]
+>=media-libs/freetype-2.10.4 png harfbuzz
+
+# su require pam
+sys-apps/util-linux -su
+
+# for sharing logs
+net-fs/samba json
+
+# dependency required by "www-servers/nginx-1.23.2-r3::gentoo" [ebuild]
+www-servers/nginx -pcre2 http3 ktls
+dev-libs/openssl ktls
+app-misc/mime-types nginx
+www-servers/nginx-unit php8-1
+dev-lang/php embed
+
+dev-python/pillow tiff truetype
+
+acct-user/git  gitea
+app-text/poppler cairo
+media-libs/tiff jpeg
+dev-libs/boost nls
+
+net-misc/freerdp ffmpeg X openh264 server smartcard usb smartcard
+dev-libs/weston fullscreen headless pipewire rdp remoting screen-sharing wayland-compositor webp xwayland
+x11-terms/alacritty wayland
+
+# firefox
+x11-libs/gtk+  wayland
+media-libs/libvpx postproc
+www-client/firefox dbus geckodriver lto pgo wayland
+x11-base/xorg-server xvfb
+
+sys-auth/elogind pam
+sys-libs/libcap pam

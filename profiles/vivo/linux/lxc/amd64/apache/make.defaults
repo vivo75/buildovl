@@ -1,0 +1,3 @@
+USE="-qt5 -openmp -test wayland -consolekit elogind -systemd pam"
+NGINX_MODULES_HTTP="addition fancyindex geoip geoip2 headers_more image_filter javascript memc metrics push_stream realip security sticky upload_progress stub_status lua geoip geoip2 javascript realip"
+

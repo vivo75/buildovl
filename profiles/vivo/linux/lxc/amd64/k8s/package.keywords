@@ -4,3 +4,136 @@
 <app-crypt/certbot-apache-9999 amd64
 <net-misc/curl-8 amd64
 
+
+# required by dev-php/symfony-event-dispatcher-2.1.0-r1::gentoo
+# required by dev-php/symfony-console-2.7.9-r1::gentoo
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/symfony-dependency-injection-2.8.20 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/spdx-licenses-1.2.0 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/symfony-console-2.7.9-r1 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/symfony-process-3.2.6 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/cli-prompt-1.0.0 amd64
+# required by dev-php/symfony-console-2.7.9-r1::gentoo
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/symfony-event-dispatcher-2.1.0-r1 amd64
+# required by dev-php/symfony-dependency-injection-2.8.20::gentoo
+# required by dev-php/symfony-event-dispatcher-2.1.0-r1::gentoo
+# required by dev-php/symfony-console-2.7.9-r1::gentoo
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/symfony-config-2.8.20 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/semver-1.4.2 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/phar-utils-1.0.0 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/json-schema-4.1.0 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/jsonlint-1.6.0 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/symfony-finder-3.2.8 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/symfony-filesystem-3.2.8 amd64
+# required by dev-php/composer-1.6.5::gentoo
+# required by dev-php/composer (argument)
+=dev-php/psr-log-1.0.2 amd64
+# required by dev-php/composer-1.8.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-php/symfony-console-2.8.48 amd64
+# required by dev-php/composer-1.8.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-php/xdebug-handler-1.3.1 amd64
+# required by dev-php/composer-1.8.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-php/spdx-licenses-1.5.0 amd64
+
+#composer dep
+~dev-php/json-schema-5.2.7
+~dev-php/jsonlint-1.7.1
+~dev-php/phar-utils-1.0.1
+~dev-php/spdx-licenses-1.4.0
+~dev-php/symfony-console-2.8.43
+~dev-php/xdebug-handler-1.3.0
+dev-php/psr-log
+~dev-php/psr-log-1.1.0
+
+dev-python/python-linux-procfs amd64
+
+# required by many packages (udev related)
+sys-apps/hwids amd64
+
+# required by dev-lang/lua-5.1.5-r4::gentoo[readline]
+# required by dev-db/redis-4.0.14::gentoo[-luajit]
+# required by @profile
+# required by @world (argument)
+=sys-libs/readline-8.0_p1 amd64
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=sys-devel/bc-1.07.1-r2 amd64
+# required by dev-lang/vala-0.46.3::gentoo
+# required by gnome-base/librsvg-2.40.20::gentoo[vala]
+# required by media-gfx/imagemagick-7.0.9.8::gentoo[svg]
+~dev-libs/vala-common-0.46.5 amd64
+
+# profile
+mail-client/s-nail amd64
+
+# Zivo
+<sys-libs/readline-8.1 amd64
+~sys-devel/bc-1.07.1 amd64
+~dev-libs/vala-common-0.46.5 amd64
+=sys-apps/ack-3.2.0 amd64
+~dev-python/mkdocs-1.0.1 amd64
+dev-java/javatoolkit amd64
+dev-java/xom amd64
+dev-java/jaxen amd64
+mail-client/s-nail amd64
+dev-python/twisted amd64
+www-servers/tornado amd64
+~sys-libs/db-6.0.35 amd64
+
+~app-emulation/cloud-init-23.4 amd64
+
+# required by certbot
+~app-crypt/acme-2.8.0  amd64
+
+# kubernetes k8s
+sys-cluster/kubeletctl amd64
+sys-cluster/kubeadm amd64
+sys-cluster/kube-apiserver amd64
+sys-cluster/kube-controller-manager amd64
+sys-cluster/kubectl amd64
+sys-cluster/kubelet amd64
+sys-cluster/kube-proxy amd64
+sys-cluster/kube-router amd64
+sys-cluster/kube-scheduler amd64
+
+app-containers/runc amd64
+
+# k3s
+app-misc/yq amd64
+# required by sys-cluster/k3s (argument)
+sys-cluster/k3s amd64
+
+# required by @profile
+# required by @world (argument)
+sys-cluster/cilium-cli amd64
+
