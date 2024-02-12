@@ -1,0 +1,6 @@
+# firewall is managed outside the container
+sys-apps/iproute2 -iptables
+
+# su require pam
+sys-apps/util-linux -su
+

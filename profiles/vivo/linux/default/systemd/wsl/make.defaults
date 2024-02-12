@@ -4,7 +4,15 @@ CXXFLAGS="-O3 -pipe -march=ivybridge -mtune=skylake -frecord-gcc-switches -fdiag
 FCFLAGS="-O3 -pipe -march=ivybridge -mtune=skylake"
 FFLAGS="-O3 -pipe -march=ivybridge -mtune=skylake"
 
+EMERGE_DEFAULT_OPTS="--usepkg=n --getbinpkg=y --binpkg-respect-use=y --ask-enter-invalid"
+
 USE="-doc -gpm X headless-awt jpeg png tiff webp wayland egl gles2"
 LLVM_TARGETS="BPF NVPTX WebAssembly X86"
 CPU_FLAGS_X86="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt rdrand sse sse2 sse3 sse4_1 sse4_2 ssse3"
 
+DISTDIR="/.gentoo/cache/distfiles"
+PKGDIR="/.gentoo/cache/binpkgs"
+KBUILD_OUTPUT="/usr/src/build"
+
+LUA_TARGETS=luajit
+LUA_SINGLE_TARGET="luajit"
