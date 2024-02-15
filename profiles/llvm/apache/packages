@@ -9,6 +9,7 @@ dev-php/pecl-stomp
 dev-php/pecl-uploadprogress
 mail-client/s-nail
 net-vpn/wireguard-tools
+www-apps/gitea
 www-apps/nextcloud-notify_push
 www-servers/caddy
 www-servers/nginx

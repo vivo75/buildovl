@@ -6,8 +6,11 @@ www-servers/apache apache2_modules_authn_socache
 sci-libs/dlib jpeg png python
 
 app-misc/mime-types nginx
-dev-lang/php -debug cli
+dev-lang/php -debug cli sysvipc webp
 
 # media-gfx/imagemagick:=[-openmp] required by (dev-php/pecl-imagick-3.7.0-r3-1:0/0::gentoo, installed)
 media-gfx/imagemagick -openmp
+
+# permit to use Gitea
+acct-user/git gitea
 
