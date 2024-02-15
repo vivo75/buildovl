@@ -4,3 +4,6 @@ sys-apps/iproute2 -iptables
 # su require pam
 sys-apps/util-linux -su
 
+# Smaller MariaDB
+dev-db/mariadb -bindist -galera -innodb-lzo -odbc -oqgraph -rocksdb -s3 -sst-mariabackup -sst-rsync
+

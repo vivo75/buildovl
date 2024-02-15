@@ -21,6 +21,3 @@
 <sys-fs/lvm2-9999 amd64
 <sys-fs/zfs-9999 amd64
 
-# backup
-<sys-fs/zfs-auto-snapshot-9999 amd64
-

@@ -137,3 +137,5 @@ sys-cluster/k3s amd64
 # required by @world (argument)
 sys-cluster/cilium-cli amd64
 
+# letsencrypt
+~app-crypt/acme-2.9.0 amd64

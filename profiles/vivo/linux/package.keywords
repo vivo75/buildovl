@@ -1,7 +1,6 @@
 # filesystem utilities
 <sys-fs/e2fsprogs-9999 amd64
 <sys-libs/e2fsprogs-libs-9999 amd64
-sys-fs/zfs-auto-snapshot amd64
 
 # we keep kernel up to date
 <net-firewall/iptables-9999 amd64
