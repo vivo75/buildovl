@@ -1,6 +1,9 @@
 # sligtly faster build and it's cached in lxc-base
 sys-devel/gcc lto openmp pgo
 
+# require GPU
+sys-devel/clang-runtime -openmp
+
 # 2023-11-18
 >=sys-apps/portage-3.0.51 -rsync-verify xattr
 >=dev-libs/openssl-3.0 fips ktls

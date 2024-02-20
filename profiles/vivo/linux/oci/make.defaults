@@ -1,5 +1,8 @@
 
-USE="minimal -acl -bzip2 -caps -doc -gpm -installkernel json -e2fsprogs -ensurepip -ftp -man -net -python -qt5 -qt6 -smartcard -utils -vim-syntax -webdav -xattr"
+USE="minimal -acl -bzip2 -caps -doc -extra-filters -ensurepip -ftp -gpm -installkernel -e2fsprogs -ensurepip"
+USE="${USE} -ftp -man -mta -net -python -qt5 -qt6 -server -smartcard -utils -vim-syntax -webdav -xattr"
+USE="${USE} bindist json minimal openmp"
+
 INSTALL_MASK="/usr/lib/debug /usr/lib*/systemd /usr/share/{doc,man,gtk-doc,vim}"
 PKG_INSTALL_MASK="${INSTALL_MASK}"
 
