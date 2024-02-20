@@ -72,7 +72,6 @@
 -*virtual/ssh
 
 # add a few useful packages outside of @system
-#app-admin/sudo
 app-editors/vim
 app-misc/jq
 dev-libs/openssl
@@ -80,7 +79,10 @@ net-misc/curl
 #net-vpn/wireguard-tools
 sys-apps/coreutils
 sys-apps/util-linux
-sys-process/lsof
+
+# provide useful information for debugging
+sys-apps/iproute2
+net-misc/socat
 sys-process/procps
 sys-process/psmisc
-
+sys-process/lsof
