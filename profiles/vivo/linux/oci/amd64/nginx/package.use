@@ -1,0 +1,11 @@
+# modules for nginx
+www-servers/nginx aio http3 ktls rtmp vim-syntax 
+www-servers/nginx nginx_modules_http_brotli nginx_modules_http_dav nginx_modules_http_dav_ext nginx_modules_http_geoip2 nginx_modules_http_realip nginx_modules_http_upload_progress nginx_modules_http_upstream_check nginx_modules_http_xslt
+www-servers/nginx nginx_modules_mail_imap nginx_modules_mail_pop3 nginx_modules_mail_smtp
+iwww-servers/nginx nginx_modules_stream_javascript nginx_modules_stream_limit_conn nginx_modules_stream_realip nginx_modules_stream_upstream_hash nginx_modules_stream_upstream_least_conn nginx_modules_stream_upstream_zone
+
+# required by nginx
+app-misc/mime-types nginx
+
+# pcre16 are useful
+dev-libs/libpcre pcre16
