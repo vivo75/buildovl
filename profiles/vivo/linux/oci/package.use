@@ -1,3 +1,13 @@
-app-editors/vim-core minimal
-app-editors/vim minimal
+# sligtly faster build and it's cached in lxc-base
+sys-devel/gcc lto openmp pgo
+
+# 2023-11-18
+>=sys-apps/portage-3.0.51 -rsync-verify xattr
+>=dev-libs/openssl-3.0 fips ktls
+
+# firewall is managed outside the container
+sys-apps/iproute2 -iptables
+
+# su require pam
+sys-apps/util-linux -su
 
