@@ -1,0 +1,5 @@
+# Brian Evans <grknight@gentoo.org> (2022-12-09)
+# PHP 8.2 is in testing
+# F1R we need it
+-php_targets_php8-2
+

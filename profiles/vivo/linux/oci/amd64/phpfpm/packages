@@ -1,1 +1,7 @@
 dev-lang/php
+
+dev-php/pecl-stomp
+dev-php/pecl-redis
+dev-php/pecl-imagick
+media-gfx/imagemagick
+

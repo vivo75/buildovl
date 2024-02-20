@@ -11,3 +11,5 @@ RUSTFLAGS="-C code-model=small -C opt-level=z"
 
 PYTHON_TARGETS="-* python3_11"
 PYTHON_SINGLE_TARGET="python3_11"
+PHP_TARGETS="-* php8-2"
+
