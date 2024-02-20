@@ -1,5 +1,9 @@
-# system tools
+# small and useful calculator (posix)
 *sys-devel/bc
+
+# may be useful as init system
+*app-containers/s6-overlay
+*sys-process/tini
 
 # remove some stuff from upstream system set
 -*>=sys-apps/busybox-0.60.5-r1
