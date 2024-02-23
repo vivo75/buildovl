@@ -156,7 +156,6 @@ net-analyzer/nmapsi
 net-analyzer/tcpdump
 net-analyzer/tcptraceroute
 net-analyzer/traceroute
-net-dns/bind-tools
 net-dns/dnsmasq
 net-dns/pdns-recursor
 net-firewall/ebtables

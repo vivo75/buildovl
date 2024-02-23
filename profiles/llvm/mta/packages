@@ -11,7 +11,6 @@ mail-filter/opendkim
 mail-filter/opendmarc
 mail-filter/rspamd
 mail-mta/postfix
-net-dns/bind-tools
 net-libs/libnsl
 net-mail/dovecot
 app-admin/rsyslog

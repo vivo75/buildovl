@@ -67,7 +67,6 @@ media-libs/libjpeg-turbo
 media-libs/tiff
 media-libs/urt
 media-video/mpeg2vidcodec
-net-dns/bind-tools
 net-ftp/ncftp
 net-libs/liblockfile
 net-mail/mailbase

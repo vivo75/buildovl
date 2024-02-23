@@ -9,7 +9,6 @@ net-analyzer/net-snmp
 net-analyzer/netperf
 net-analyzer/tcpdump
 net-analyzer/tcptraceroute
-net-dns/bind-tools
 net-dns/unbound
 net-firewall/ipset
 net-firewall/nftables
