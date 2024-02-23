@@ -62,7 +62,6 @@ dev-python/pygame
 dev-python/pygraphviz
 dev-python/pymysql
 dev-python/pyopengl
-dev-python/python-evdev
 dev-python/python-memcached
 dev-python/python-xlib
 dev-python/pyudev
