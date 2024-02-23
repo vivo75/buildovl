@@ -1,4 +1,5 @@
 app-portage/cpuid2cpuflags
 app-portage/eix
 dev-util/debugedit
+net-libs/ldns
 sys-process/procps

@@ -37,6 +37,7 @@ dev-python/pymysql
 dev-python/virtualenv
 dev-vcs/git
 mail-mta/msmtp
+net-libs/ldns
 net-misc/iputils
 sys-apps/mlocate
 sys-apps/pv

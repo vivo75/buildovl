@@ -13,6 +13,7 @@ net-dns/unbound
 net-firewall/ipset
 net-firewall/nftables
 net-fs/sshfs
+net-libs/ldns
 net-misc/bridge-utils
 net-misc/dhcp
 net-misc/iperf
