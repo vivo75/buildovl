@@ -1,3 +1,6 @@
+# remove bind-tools dep
+net-fs/samba -addc -ads
+
 # we use default cron script
 sys-fs/zfs-auto-snapshot -minimal
 sys-fs/zfs python
