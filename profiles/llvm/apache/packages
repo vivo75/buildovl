@@ -8,6 +8,7 @@ dev-php/pecl-redis
 dev-php/pecl-stomp
 dev-php/pecl-uploadprogress
 mail-client/s-nail
+virtual/openssh
 net-vpn/wireguard-tools
 www-apps/gitea
 www-apps/nextcloud-notify_push
