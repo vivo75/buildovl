@@ -1,3 +1,7 @@
+kde-apps/kate-addons lspclient
+dev-qt/qtwayland compositor 
+dev-lang/rust clippy profiler rust-analyzer rust-src rustfmt wasm
+
 # remove bind-tools dep
 net-fs/samba -addc -ads
 
@@ -96,3 +100,9 @@ sys-libs/libapparmor python
 # DEP app-crypt/swtpm
 net-libs/gnutls pkcs11
 
+# required by dev-qt/qtwayland
+dev-qt/qtbase opengl
+dev-qt/qtdeclarative opengl
+
+# required by USE=udev
+media-libs/libcanberra alsa

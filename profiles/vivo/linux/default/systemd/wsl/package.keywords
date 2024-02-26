@@ -23,3 +23,4 @@
 ~sys-cluster/cilium-cli-0.13.0 amd64
 ~sys-cluster/kube-router-1.6.0 amd64
 ~app-misc/yq-3.2.3 amd64
+~dev-python/podman-4.9.0 amd64
