@@ -1,3 +1,4 @@
 # Smaller MariaDB
-dev-db/mariadb -bindist -galera -innodb-lzo -odbc -oqgraph -rocksdb -s3 -sst-mariabackup -sst-rsync server
-
+dev-db/mariadb -bindist -innodb-lzo -odbc -oqgraph -rocksdb -s3 -sst-mariabackup -sst-rsync galera jemalloc server
+sys-cluster/galera garbd
+dev-vcs/git -perl -safe-directory

@@ -1,0 +1,2 @@
+dev-db/mariadb:10.11 amd64
+~dev-perl/DBD-MariaDB-1.230.0 amd64
