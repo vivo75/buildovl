@@ -2,4 +2,4 @@ app-admin/pwgen
 app-crypt/gpgme
 dev-db/mariadb
 dev-db/mariadb-connector-c
-
+f1r-conf/oci-mariadb
