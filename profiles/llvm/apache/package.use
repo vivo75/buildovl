@@ -14,3 +14,5 @@ media-gfx/imagemagick -openmp
 # permit to use Gitea
 acct-user/git gitea
 
+# some app in Nextcloud require Node
+net-libs/nodejs corepack
