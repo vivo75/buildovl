@@ -29,6 +29,7 @@ dev-db/etcd
 dev-db/mariadb
 dev-db/sqlitebrowser
 dev-python/dockerpty
+dev-python/scikit-learn
 dev-python/selenium
 dev-python/sqlalchemy
 dev-util/docker-distribution-pruner
@@ -48,7 +49,6 @@ net-ftp/ncftp
 net-libs/nodejs
 net-misc/dhcpcd
 net-misc/rclone
-sci-libs/scikit-learn
 sys-apps/busybox
 sys-apps/fbset
 sys-apps/inxi
