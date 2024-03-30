@@ -11,6 +11,7 @@ net-misc/openssh -ssh1
 net-nds/rpcbind warmstarts
 net-dns/bind-tools seccomp
 dev-debug/strace -unwind elfutils
+dev-python/urllib3 http2
 
 # we want to be able to build a partially static perf
 sys-libs/binutils-libs static-libs
