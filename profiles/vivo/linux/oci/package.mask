@@ -1,2 +1,2 @@
 # 3.12 has not enough tree support
->=dev-lang/python-3.12
+#>=dev-lang/python-3.12
