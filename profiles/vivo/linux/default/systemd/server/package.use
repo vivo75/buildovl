@@ -34,7 +34,6 @@ sys-libs/zlib minizip
 virtual/mysql -server
 
 sys-apps/systemd -cryptsetup
-sys-libs/libapparmor perl python
 
 #  media-libs/virglrenderer FTB
 app-emulation/qemu -virgl -static-user ssh bpf io-uring gnutls lzo python

@@ -25,7 +25,6 @@ media-gfx/imagemagick -openmp
 sys-fs/eudev -hwdb
 
 # require python2 
-net-analyzer/net-snmp -python
 dev-util/boost-build -python
 
 

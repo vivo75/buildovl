@@ -1,5 +1,3 @@
-sys-apps/apparmor
-sys-apps/apparmor-utils
 sys-apps/audio-entropyd
 sys-apps/dmidecode
 sys-apps/gptfdisk

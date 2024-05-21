@@ -88,7 +88,7 @@ USE="${USE} -berkdb -bindist -cramfs -cups -dhcp -e2fsprogs -gdbm -gnutls -gpm"
 USE="${USE} -installkernel -iptables -keyutils -kmod -netifrc -nls -python"
 USE="${USE} -smartcard -tftp -udev -webengine"
 USE="${USE} acpi bash-completion bzip2 caps cfi cxx hardened kerberos lto lz4"
-USE="${USE} lzma openmp orc pgo profile snmp sqlite sse2 sse3 ssl threads"
+USE="${USE} lzma openmp orc pgo profile sqlite sse2 sse3 ssl threads"
 USE="${USE} unicode vim-syntax xattr zfs zlib zstd"
 
 

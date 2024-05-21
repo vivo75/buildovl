@@ -2,7 +2,7 @@
 app-arch/unzip -natspec
 
 # We opt to maintain sysv/openrc as an alternative
-sys-apps/systemd -cryptsetup -sysv-utils apparmor audit curl dns-over-tls elfutils gnuefi http idn importd libidn2 qrcode
+sys-apps/systemd -cryptsetup -sysv-utils audit curl dns-over-tls elfutils gnuefi http idn importd libidn2 qrcode
 
 # Not all packages need python
 dev-lang/python        threads

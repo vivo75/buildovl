@@ -6,9 +6,6 @@ sys-apps/iproute2 elf
 # without net s-nail miss SMTP and it's impossible to debug
 mail-client/s-nail ssl net
 
-# X require Tk
-net-analyzer/net-snmp -X
-
 ##########################
 # this stuff need  sorting
 

@@ -12,9 +12,6 @@ virtual/mysql -server
 dev-db/mariadb -client-libs -server innodb-lz4
 dev-db/mysql -server
 
-# (dependency required by "mail-filter/amavisd-new-2.13.0::gentoo[snmp]" [ebuild])
-net-analyzer/net-snmp perl
-
 # mail-filter/libspf2 conflict with dev-perl/Mail-SPF
 mail-filter/opendmarc -spf
 

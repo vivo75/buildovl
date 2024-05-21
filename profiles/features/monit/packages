@@ -7,7 +7,6 @@ app-forensics/unhide
 dev-debug/ltrace
 dev-debug/strace
 dev-util/lttng-tools
-sys-apps/dstat
 sys-apps/ethtool
 sys-apps/lshw
 sys-process/acct

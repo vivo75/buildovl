@@ -1,4 +1,3 @@
-net-analyzer/net-snmp perl python
 net-dns/bind-tools idn
 net-firewall/ipset -modules
 net-misc/bridge-utils sysfs

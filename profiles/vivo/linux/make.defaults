@@ -32,7 +32,7 @@ ACCEPT_LICENSE="*"
 
 # USE flags modified globally
 USE="${USE} -cups -nls -gnutls -gpm -python"
-USE="${USE} bash-completion bzip2 mmx snmp caps vim-syntax acpi lzma threads"
+USE="${USE} bash-completion bzip2 mmx caps vim-syntax acpi lzma threads"
 USE="${USE} lz4 zlib xattr sse2 sse3 ssl sqlite udev zstd"
 
 # Define the default portage feature set.

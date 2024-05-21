@@ -15,7 +15,6 @@
 <sys-block/thin-provisioning-tools-9999 amd64
 <sys-boot/efibootmgr-9999 amd64
 <sys-libs/efivar-9999 amd64
-<sys-libs/libapparmor-9999 amd64
 <dev-util/lttng-tools-9999 amd64
 <dev-util/lttng-ust-9999 amd64
 <sys-fs/lvm2-9999 amd64

@@ -4,7 +4,6 @@ net-analyzer/ifstat
 net-analyzer/iftop
 net-analyzer/iptraf-ng
 net-analyzer/mtr
-net-analyzer/net-snmp
 net-analyzer/netperf
 net-analyzer/tcpdump
 net-analyzer/tcptraceroute
