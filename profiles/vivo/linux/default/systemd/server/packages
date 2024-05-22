@@ -31,7 +31,6 @@ net-misc/wsdd
 sys-apps/busybox
 sys-apps/fbset
 sys-apps/most
-sys-block/fio
 sys-block/open-iscsi
 sys-cluster/k3s
 sys-fs/btrfs-progs
