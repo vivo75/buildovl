@@ -1,5 +1,5 @@
 # many packages missing support
->=dev-lang/python-3.12
+>=dev-lang/python-3.13
 
 # keep only llvm 17
 <=sys-devel/llvm-17
