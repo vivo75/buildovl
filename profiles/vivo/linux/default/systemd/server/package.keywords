@@ -2,6 +2,7 @@
 <app-containers/conmon-2.1.11 amd64
 <app-containers/containerd-1.7.9 amd64
 <app-containers/lxd-5.21 amd64
+<sys-fs/erofs-utils-1.8 amd64
 
 ~sys-cluster/k3s-1.25.4_p1 amd64
 ~app-emulation/virtiofsd-1.10.0 amd64

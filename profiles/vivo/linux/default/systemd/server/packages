@@ -21,6 +21,7 @@ dev-python/podman
 dev-util/pahole
 dev-util/patchelf
 dev-util/pkgcheck
+mail-client/s-nail
 net-firewall/firewalld
 net-fs/nfs-utils
 net-fs/samba
@@ -29,13 +30,16 @@ net-misc/dhcpcd
 net-misc/netifrc
 net-misc/wsdd
 sys-apps/busybox
+sys-apps/cpuid
 sys-apps/fbset
+sys-apps/inxi
 sys-apps/most
 sys-block/open-iscsi
 sys-cluster/k3s
 sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-fs/duperemove
+sys-fs/erofs-utils
 sys-fs/xfsprogs
 sys-fs/zfs-auto-snapshot
 sys-process/tini
