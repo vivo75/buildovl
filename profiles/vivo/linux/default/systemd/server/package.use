@@ -82,3 +82,6 @@ sys-apps/nvme-cli -hugepages
 # (dependency required by "app-emulation/libvirt-9.4.0-r3::gentoo[qemu]" [installed])
 >=net-libs/gnutls-3.8.0 pkcs11
 
+
+# dependency required by "net-libs/nodejs-22.3.0::gentoo"
+net-libs/ngtcp2 gnutls -openssl

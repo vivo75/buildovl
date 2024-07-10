@@ -12,4 +12,4 @@ www-client/elinks -X -bzip2 -gpm -mouse ipv6 nls ssl unicode xml zlib
 dev-vcs/git -perl -webdav curl
 
 # required use
-app-crypt/gpgme qt5 cxx
+app-crypt/gpgme qt6 cxx
