@@ -1,3 +1,4 @@
+-*sys-apps/openrc
 app-containers/podman
 app-crypt/cfssl
 app-emulation/cloud-init

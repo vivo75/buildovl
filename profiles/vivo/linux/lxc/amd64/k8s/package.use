@@ -70,3 +70,8 @@ sys-cluster/k3s  -kubectl-symlink
 
 # bck use btrfs too
 app-containers/podman btrfs
+
+# compatibility with systemd
+sys-apps/openrc -sysv-utils -sysvinit
+net-misc/netifrc -dhcp
+
