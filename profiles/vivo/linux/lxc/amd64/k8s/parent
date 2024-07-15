@@ -1,3 +1,4 @@
+gentoo:targets/systemd
 ../../../../../features/compress
 ../../../../../features/k8s
 ../../../../../features/gentoo-util
