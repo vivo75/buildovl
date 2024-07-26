@@ -1,3 +1,10 @@
+MULTILIB_ABIS="amd64"
+
+# Michał Górny <mgorny@gentoo.org> (2013-01-26)
+# Hide the ABI_X86 USE_EXPAND back for non-multilib profile.
+USE_EXPAND_HIDDEN="ABI_X86"
+
+
 ABI_X86="-32 64"
 CHOST="x86_64-pc-linux-gnu"
 # REMOVE "-fno-tree-loop-distribute-patterns -fno-tree-loop-vectorize" when possible, see:
