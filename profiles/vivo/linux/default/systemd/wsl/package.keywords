@@ -23,3 +23,13 @@
 ~sys-cluster/kube-router-1.6.0 amd64
 ~app-misc/yq-3.2.3 amd64
 ~dev-python/podman-4.9.0 amd64
+
+# required by kde-frameworks/kcodecs-6.4.0::gentoo
+# required by kde-apps/kio-extras-24.05.2::gentoo
+# required by kde-apps/dolphin-24.05.2::gentoo
+~kde-frameworks/kf-env-6 amd64
+# required by app-containers/containerd-1.7.19::gentoo
+~app-containers/runc-1.1.13 amd64
+~dev-libs/qcoro-0.10.0 amd64
+~app-containers/podman-tui-1.1.0 amd64
+

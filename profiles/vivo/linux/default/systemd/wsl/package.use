@@ -102,3 +102,9 @@ dev-qt/qtdeclarative opengl
 
 # required by USE=udev
 media-libs/libcanberra alsa
+
+# openssl is not accept
+net-libs/ngtcp2 gnutls
+
+media-video/vlc ogg
+
