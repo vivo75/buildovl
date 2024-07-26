@@ -53,5 +53,8 @@ net-misc/spice-gtk usbredir
 # required by "app-containers/lxc-6.0.1::gentoo[caps,tools]"
 sys-libs/libcap static-libs
 
+# required by "kde-apps/kdenlive-24.05.2::gentoo"
+>=media-video/ffmpeg-6.1.1 libass sdl
 
-
+# require vlc which is not well maintained in gentoo
+media-libs/phonon minimal
