@@ -9,3 +9,5 @@ sys-apps/util-linux -su
 
 dev-lang/php fpm mysqli
 
+dev-qt/qtbase -X -gui -libinput -widgets
+

@@ -18,3 +18,9 @@ mail-filter/opendmarc -spf
 # FTB
 sys-libs/db -cxx
 
+
+# problems with qt
+app-crypt/gpgme -qt6
+dev-qt/qtbase -X -gui -libinput -widgets
+
+
