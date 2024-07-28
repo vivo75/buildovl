@@ -1,11 +1,11 @@
 # many packages missing support
 >=dev-lang/python-3.13
 
-# keep only llvm 17
-<=sys-devel/llvm-17
-<sys-devel/llvm-toolchain-symlinks-17
->=sys-devel/llvm-18
->=sys-devel/llvm-toolchain-symlinks-18
+# keep only llvm 18
+<=sys-devel/llvm-18
+<sys-devel/llvm-toolchain-symlinks-18
+>=sys-devel/llvm-19
+>=sys-devel/llvm-toolchain-symlinks-19
 
 # changes API break a lot of packages
 ~dev-libs/libxml2-2.12.4
