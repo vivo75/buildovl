@@ -9,7 +9,7 @@ mail-client/s-nail ssl net
 ##########################
 # this stuff need  sorting
 
-dev-lang/php gd bcmath calendar curl debug flatfile fpm gmp imap inifile mysql pcntl soap sockets sqlite sysvipc vpx xmlreader xmlrpc xmlwriter xslt zip pdo
+dev-lang/php gd bcmath calendar curl debug flatfile fpm gmp -imap inifile mysql pcntl soap sockets sqlite sysvipc vpx xmlreader xmlrpc xmlwriter xslt zip pdo
 dev-lang/python sqlite pgo
 media-video/ffmpeg        -nvenc fontconfig vpx webp theora lzma faac  ogg vorbis kde matroska mpeg musepack opencv qt6 xml dts dvb fdk pulseaudio rtsp schroedinger x265 tremor opus httpd lua live rdp v4l vlm vnc sdl  openh264
 

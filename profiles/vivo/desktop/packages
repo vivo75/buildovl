@@ -65,7 +65,6 @@ net-misc/yt-dlp
 net-print/hplip
 net-vpn/networkmanager-openvpn
 net-wireless/wireless-tools
-sci-geosciences/gpx-viewer
 sci-geosciences/gpxsee
 sys-apps/cpuid
 sys-apps/ethtool
