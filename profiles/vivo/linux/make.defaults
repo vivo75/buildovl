@@ -59,7 +59,5 @@ QEMU_SOFTMMU_TARGETS="x86_64 aarch64 arm"
 APACHE2_MODULES="${APACHE2_MODULES} macro proxy proxy_ajp proxy_balancer proxy_connect proxy_fcgi"
 APACHE2_MODULES="${APACHE2_MODULES} proxy_html proxy_http proxy_http2 proxy_wstunnel ratelimit"
 APACHE2_MODULES="${APACHE2_MODULES} remoteip slotmem_shm substitute xml2enc"
-LUA_TARGETS=luajit
-LUA_SINGLE_TARGET="luajit"
 # vim: setlocal filetype=gentoo-make-conf :
 

@@ -1,2 +1,2 @@
 USE="-qt5"
-
+POSTGRES_TARGETS="postgres15"

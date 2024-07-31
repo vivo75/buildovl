@@ -15,5 +15,3 @@ DISTDIR="/.gentoo/cache/distfiles"
 PKGDIR="/.gentoo/cache/binpkgs"
 KBUILD_OUTPUT="/usr/src/build"
 
-LUA_TARGETS=luajit
-LUA_SINGLE_TARGET="luajit"
