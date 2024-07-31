@@ -5,3 +5,9 @@ dev-db/mysqltuner
 dev-db/percona-toolkit
 dev-db/postgresql
 dev-python/pymysql
+
+# openstreetmap
+dev-db/postgresql:15
+dev-db/postgis
+sci-geosciences/osm2pgsql
+

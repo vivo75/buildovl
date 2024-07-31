@@ -11,3 +11,8 @@ dev-lang/php fpm mysqli
 
 dev-qt/qtbase -X -gui -libinput -widgets
 
+# for openstreetmap
+dev-db/postgis topology
+sci-libs/gdal geos jpeg opencl png pdf postgres python spatialite webp icu
+dev-libs/libxml2 python
+
