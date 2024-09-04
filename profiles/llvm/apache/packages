@@ -14,7 +14,8 @@ www-apps/gitea
 www-apps/nextcloud-notify_push
 www-servers/caddy
 www-servers/nginx
-sci-geosciences/gpsbabel
+## too many deps
+#sci-geosciences/gpsbabel
 
 # Some app in Nextcloud require Node
 net-libs/nodejs
