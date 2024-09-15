@@ -85,3 +85,6 @@ sys-apps/nvme-cli -hugepages
 
 # dependency required by "net-libs/nodejs-22.3.0::gentoo"
 net-libs/ngtcp2 gnutls -openssl
+
+dev-libs/tree-sitter-bash python
+
