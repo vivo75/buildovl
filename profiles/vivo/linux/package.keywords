@@ -9,3 +9,8 @@
 <net-misc/ethertypes-9999 amd64
 <net-libs/libnetfilter_conntrack-9999 amd64
 <net-libs/libnftnl-9999 amd64
+
+# Packages without stable that we consider stable enough
+<dev-python/podman-9999 amd64
+<app-forensics/lynis-9999 amd64
+
