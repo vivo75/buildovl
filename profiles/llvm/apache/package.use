@@ -20,3 +20,5 @@ net-libs/nodejs corepack
 # dependency required by "net-libs/nodejs-22.3.0::gentoo"
 net-libs/ngtcp2 gnutls -openssl
 
+media-video/ffmpeg cpudetection vulkan webp x264 x265
+

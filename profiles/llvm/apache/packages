@@ -17,6 +17,6 @@ www-servers/nginx
 ## too many deps
 #sci-geosciences/gpsbabel
 
-# Some app in Nextcloud require Node
+# Nextcloud
 net-libs/nodejs
-
+media-video/ffmpeg
