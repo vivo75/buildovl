@@ -3,7 +3,6 @@ app-vim/nginx-syntax
 dev-lang/python
 dev-php/pecl-apcu
 dev-php/pecl-imagick
-dev-php/pecl-oauth
 dev-php/pecl-redis
 dev-php/pecl-stomp
 dev-php/pecl-uploadprogress

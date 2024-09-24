@@ -5,7 +5,6 @@ dev-lang/php:8.2 amd64
 sci-libs/dlib amd64
 sci-libs/mkl amd64
 ~dev-php/pecl-stomp-2.0.3 amd64
-~dev-php/pecl-oauth-2.0.7 amd64
 ~dev-php/pecl-uploadprogress-2.0.2 amd64
 ~www-apps/nextcloud-notify_push-0.6.6 amd64
 
