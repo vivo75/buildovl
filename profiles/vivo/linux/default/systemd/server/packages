@@ -16,6 +16,7 @@ app-emulation/virtiofsd
 app-misc/yq
 app-portage/portage-utils
 app-text/tree
+app-vim/vim-nftables
 dev-db/mariadb
 dev-python/podman
 dev-util/pahole
