@@ -1,3 +1,6 @@
+# per okular
+app-text/poppler nss
+
 kde-apps/kate-addons lspclient
 dev-qt/qtwayland compositor 
 dev-lang/rust clippy profiler rust-analyzer rust-src rustfmt wasm
