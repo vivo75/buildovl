@@ -1,3 +1,6 @@
+# per PNP
+dev-lang/php xmlreader xmlwriter bcmath exif intl pcntl sharedmem soap tidy truetype xslt zip
+
 # per okular
 app-text/poppler nss
 
