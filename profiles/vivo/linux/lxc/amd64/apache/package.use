@@ -98,3 +98,6 @@ sys-libs/libcap pam
 # (dependency required by "dev-db/redis-7.4.1::gentoo[jemalloc]" [ebuild])
 dev-libs/jemalloc stats
 
+# this emulate python 2.7
+dev-python/pypy full-stdlib
+
