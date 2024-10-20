@@ -23,4 +23,5 @@ sys-libs/db -cxx
 app-crypt/gpgme -qt6
 dev-qt/qtbase -X -gui -libinput -widgets
 
-
+# (dependency required by "dev-db/redis-7.4.1::gentoo[jemalloc]" [ebuild])
+dev-libs/jemalloc stats

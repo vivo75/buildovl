@@ -94,3 +94,7 @@ x11-base/xorg-server xvfb
 
 sys-auth/elogind pam
 sys-libs/libcap pam
+
+# (dependency required by "dev-db/redis-7.4.1::gentoo[jemalloc]" [ebuild])
+dev-libs/jemalloc stats
+
