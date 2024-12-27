@@ -36,7 +36,6 @@ sys-apps/fbset
 sys-apps/inxi
 sys-apps/most
 sys-block/open-iscsi
-sys-cluster/k3s
 sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-fs/duperemove
