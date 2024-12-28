@@ -12,8 +12,8 @@ sys-apps/sandbox -abi_x86_32
 
 dev-libs/libffi -abi_x86_32
 dev-libs/libxml2 -abi_x86_32
-sys-devel/clang -abi_x86_32
-sys-devel/clang-runtime -abi_x86_32
+llvm-core/clang -abi_x86_32
+llvm-core/clang-runtime -abi_x86_32
 sys-devel/llvm -abi_x86_32
 sys-libs/compiler-rt -abi_x86_32
 sys-libs/libcxxabi -abi_x86_32

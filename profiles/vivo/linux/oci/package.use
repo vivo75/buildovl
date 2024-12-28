@@ -2,7 +2,7 @@
 sys-devel/gcc lto openmp pgo
 
 # require GPU
-sys-devel/clang-runtime -openmp
+llvm-core/clang-runtime -openmp
 
 # 2023-11-18
 >=sys-apps/portage-3.0.51 -rsync-verify xattr

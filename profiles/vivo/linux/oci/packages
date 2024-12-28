@@ -42,7 +42,6 @@
 -*sys-devel/binutils
 -*sys-devel/binutils-apple
 -*sys-devel/binutils-config
--*sys-devel/clang
 -*sys-devel/gcc
 -*sys-devel/gcc-config
 -*sys-devel/gnuconfig
