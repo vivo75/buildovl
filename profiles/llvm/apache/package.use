@@ -1,3 +1,6 @@
+# required by old sources
+net-misc/openssh legacy-ciphers
+
 # required by "dev-db/redis-7.4.1::gentoo[jemalloc]"
 >=dev-libs/jemalloc-5.3.0-r1 stats
 
