@@ -1,3 +1,6 @@
+#(dependency required by "app-admin/cockpit-326::buildovl" [installed])
+net-libs/nodejs npm
+
 # we use default cron script
 sys-fs/zfs-auto-snapshot -minimal
 sys-fs/zfs python
