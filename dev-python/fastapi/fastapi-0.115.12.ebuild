@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=pdm-backend
 inherit distutils-r1
 
 DESCRIPTION="FastAPI framework, high performance, easy to learn"
-HOMEPAGE="https://www.fastapi.io/"
+HOMEPAGE="https://fastapi.tiangolo.com/"
 SRC_URI="https://github.com/tiangolo/fastapi/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="BSD"
