@@ -1,8 +1,9 @@
 # Copyright 2017-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
-PYTHON_COMPAT=( python3_{8..11} )
+EAPI=8
+PYTHON_COMPAT=( python3_{8..12} )
+DISTUTILS_USE_PEP517=setuptools
 
 IUSE="zfs"
 
@@ -13,7 +14,7 @@ RDEPEND="
 	zfs? ( sys-apps/util-linux
 			dev-db/sqlite
 			sys-fs/zfs
-			app-backup/zfs-auto-snapshot )"
+			sys-fs/zfs-auto-snapshot )"
 
 if [[ ${PV} == 9999 ]] ; then
 	inherit distutils-r1 git-r3
