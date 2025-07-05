@@ -1,4 +1,0 @@
-# tree is not yet ready for those
-#dev-lang/python:3.12
-dev-lang/python:3.13
-

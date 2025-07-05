@@ -3,4 +3,3 @@ dev-lang/ekopath
 
 # https://bugs.gentoo.org/923055
 =dev-libs/libxml2-2.12.4
-#>=dev-lang/python-3.12

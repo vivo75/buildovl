@@ -1,6 +1,3 @@
-# many packages missing support
->=dev-lang/python-3.13
-
 # keep only llvm 18
 <=sys-devel/llvm-18
 <sys-devel/llvm-toolchain-symlinks-18

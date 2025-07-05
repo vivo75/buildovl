@@ -9,7 +9,7 @@ PKG_INSTALL_MASK="${INSTALL_MASK}"
 #RUSTFLAGS="-C code-model=small -C debuginfo=none -C lto=true -C opt-level=z -C strip=symbols -C codegen-units=1 -C panic=abort -C target-feature=+crt-static"
 RUSTFLAGS="-C code-model=small -C opt-level=z"
 
-PYTHON_TARGETS="-* python3_12"
-PYTHON_SINGLE_TARGET="python3_12"
+PYTHON_TARGETS="-* python3_13"
+PYTHON_SINGLE_TARGET="python3_13"
 PHP_TARGETS="-* php8-2"
 
