@@ -35,27 +35,10 @@ src_install() {
 }
 
 pkg_postinst() {
-	echo '#!/sbin/openrc-run
-
-name=$RC_SVCNAME
-description="RustDesk Daemon Service"
-supervisor="supervise-daemon"
-command="/usr/bin/rustdesk"
-command_args="--service"
-
-depend() {
-	after xdm
-	need net
-}' > /etc/init.d/rustdesk
-	chmod +x /etc/init.d/rustdesk
-	rc-update add rustdesk default
-	/etc/init.d/rustdesk start
+	xdg_desktop_database_update
 }
 
 pkg_postrm() {
-	rc-update delete rustdesk
-	/etc/init.d/rustdesk stop
-
-	rm -f /etc/init.d/rustdesk || die
+	xdg_desktop_database_update
 }
 
