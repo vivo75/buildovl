@@ -9,12 +9,9 @@
 
 ~sys-cluster/k3s-1.25.4_p1 amd64
 ~app-emulation/virtiofsd-1.10.0 amd64
-~net-misc/wsdd-0.7.1 amd64
 ~dev-python/podman-4.9.0 amd64
 ~app-crypt/sscg-3.0.3 amd64
-~acct-group/wsdd-0 amd64
 ~app-misc/yq-3.2.3 amd64
 ~app-forensics/lynis-3.0.9 amd64
 ~app-admin/cockpit-291 amd64
-~acct-user/wsdd-0 amd64
 

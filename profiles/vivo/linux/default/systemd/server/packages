@@ -29,7 +29,6 @@ net-fs/samba
 net-ftp/ncftp
 net-misc/dhcpcd
 net-misc/netifrc
-net-misc/wsdd
 sys-apps/busybox
 sys-apps/cpuid
 sys-apps/fbset
