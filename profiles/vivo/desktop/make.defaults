@@ -1,18 +1,20 @@
-MULTILIB_ABIS="amd64"
+MULTILIB_ABIS="amd64 x86"
 
-# Michał Górny <mgorny@gentoo.org> (2013-01-26)
-# Hide the ABI_X86 USE_EXPAND back for non-multilib profile.
-USE_EXPAND_HIDDEN="ABI_X86"
+## Michał Górny <mgorny@gentoo.org> (2013-01-26)
+## Hide the ABI_X86 USE_EXPAND back for non-multilib profile.
+#USE_EXPAND_HIDDEN="ABI_X86"
 
 
-ABI_X86="-32 64"
+ABI_X86="32 64"
 CHOST="x86_64-pc-linux-gnu"
 # REMOVE "-fno-tree-loop-distribute-patterns -fno-tree-loop-vectorize" when possible, see:
 # https://gcc.gnu.org/bugzilla/show_bug.cgi?id=93334
 # https://github.com/Beep6581/RawTherapee/issues/5749
 WARNING_FLAGS="-Werror=odr -Werror=lto-type-mismatch -Werror=strict-aliasing"
-CFLAGS="-O2 -pipe -march=znver2 -mtune=znver2 -frecord-gcc-switches -fdiagnostics-color=never  -fno-tree-loop-distribute-patterns -fno-tree-loop-vectorize -ggdb -flto ${WARNING_FLAGS}"
-CXXFLAGS="-O2 -pipe -march=znver2 -mtune=znver2 -frecord-gcc-switches -fdiagnostics-color=never  -fno-tree-loop-distribute-patterns -fno-tree-loop-vectorize -ggdb -flto ${WARNING_FLAGS}"
+# -Wa,--gsframe 
+DEBUG_FLAGS="-frecord-gcc-switches -fdiagnostics-color=never -ggdb"
+CFLAGS="-O2 -pipe -march=znver2 -mtune=znver2 -fno-tree-loop-distribute-patterns -fno-tree-loop-vectorize ${DEBUG_FLAGS} -flto ${WARNING_FLAGS}"
+CXXFLAGS="-O2 -pipe -march=znver2 -mtune=znver2 -fno-tree-loop-distribute-patterns -fno-tree-loop-vectorize ${DEBUG_FLAGS} -flto ${WARNING_FLAGS}"
 FCFLAGS="-O2 -pipe -march=znver2 -mtune=znver2"
 FFLAGS="-O2 -pipe -march=znver2 -mtune=znver2"
 #LDFLAGS="${LDFLAGS} -fuse-ld=mold"
