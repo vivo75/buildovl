@@ -3,8 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{9..11} )
-
+PYTHON_COMPAT=( python3_{11..13} )
 inherit toolchain-funcs python-any-r1
 
 DESCRIPTION="Easy hugepage access"
