@@ -11,6 +11,7 @@ app-containers/cri-tools
 app-containers/podman
 app-containers/skopeo
 app-crypt/certbot-apache
+app-emulation/cloud-init
 app-emulation/libvirt
 app-emulation/virtiofsd
 app-misc/yq
