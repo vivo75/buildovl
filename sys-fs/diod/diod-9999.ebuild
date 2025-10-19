@@ -30,6 +30,7 @@ DEPEND="
 	sys-libs/libcap
 	sys-libs/ncurses:0
 	tcmalloc? ( dev-util/google-perftools )
+	sys-auth/munge
 "
 RDEPEND="${DEPEND}"
 BDEPEND="virtual/pkgconfig"
