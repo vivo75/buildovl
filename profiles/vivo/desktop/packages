@@ -30,7 +30,6 @@ dev-php/tcpdf
 dev-python/psycopg
 dev-python/scipy
 dev-python/virtualenv
-dev-util/bcc
 dev-util/clinfo
 dev-util/cscope
 dev-util/debootstrap
