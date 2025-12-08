@@ -7,7 +7,7 @@ inherit unpacker
 DESCRIPTION="Additional configuration for a VM running in HyperV (Azure)"
 HOMEPAGE="https://kernel.org"
 SRC_URI="
-amd64? ( 
+amd64? (
     https://tbz.f1r.eu/kvm/kernel-${PV}-kvm.tar
     https://tbz.f1r.eu/kvm/azure-${PV}-kvm.tar.zst -> azure-${PV}-kvm.tar.zstd
 )
@@ -29,20 +29,19 @@ src_unpack() {
 }
 
 src_install() {
-    echo "S=${S}"
-    echo "WORKDIR=${WORKDIR}"
-    echo "ED=${ED}"
     mv "${S}"/{boot,lib,usr}/ "${ED}/" || die
+    mv "${ED}"/usr/sbin/* "${ED}"/usr/bin/ || die
+    rmdir "${ED}"/usr/sbin || die
     mv "${ED}"/boot/vmlinuz{-${PV}-kvm,} || die
     mv "${ED}"/boot/initrd{-${PV}-kvm,} || die
-    
+
     insinto /boot/grub
     newins "${FILESDIR}"/boot-grub-grub.cfg grub.cfg
 
     exeinto /usr/libexec/hypervkvpd
     newexe "${FILESDIR}"/usr-libexec-hypervkvpd-hv_get_dhcp_info hv_get_dhcp_info
     newexe "${FILESDIR}"/usr-libexec-hypervkvpd-hv_get_dns_info hv_get_dns_info
-    
+
     insinto /etc/cloud/cloud.cfg.d
     doins -r "${FILESDIR}"/cloud-init/
 }
