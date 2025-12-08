@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="project">
+		<email>python@gentoo.org</email>
+		<name>Python</name>
+	</maintainer>
+	<longdescription lang="en">
+		Multi-platform command line experience for Azure
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">azure-cli</remote-id>
+		<remote-id type="github">Azure/azure-cli</remote-id>
+	</upstream>
+</pkgmetadata>
+
