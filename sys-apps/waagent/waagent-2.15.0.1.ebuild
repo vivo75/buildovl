@@ -17,9 +17,10 @@ SLOT="0"
 KEYWORDS="amd64"
 
 RDEPEND=">=dev-libs/openssl-1.0.1h-r2
-        >=net-misc/openssh-6.6_p1-r1
-        sys-apps/iproute2
-        dev-python/pyasn1-modules"
+		>=net-misc/openssh-6.6_p1-r1
+		sys-apps/iproute2
+		dev-python/crypt-r
+		dev-python/pyasn1-modules"
 BDEPEND="${RDEPEND}"
 
 DOCS=( MAINTENANCE.md README.md )
@@ -36,23 +37,19 @@ src_install() {
 	local sitedir=${D}$(python_get_sitedir)
 
 	distutils-r1_src_install
-	echo "S=${S}"
-	echo "WORKDIR=${WORKDIR}"
-	echo "ED=${ED}"
-	echo "sitedir=${sitedir}"
-	
+
 	insinto /usr/lib/udev/rules.d
 	doins "${sitedir}"/etc/udev/rules.d/*.rules
-	
+
 	systemd_dounit "${FILESDIR}"/walinuxagent.service
-	
+
 	insinto /etc/logrotate.d
 	newins "${FILESDIR}"/waagent.logrotate waagent
-	
+
 	#dosbin "${sitedir}"/usr/sbin/waagent
 	#dosbin "${sitedir}"/usr/sbin/waagent2.0
 	python_scriptinto /usr/sbin
 	python_doexe "${sitedir}"/usr/sbin/waagent
-	
+
 	rm -r "${ED}"/usr/lib/python3.13/site-packages/{etc,usr}
 }

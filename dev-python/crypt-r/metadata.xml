@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="project">
+		<email>python@gentoo.org</email>
+		<name>Python</name>
+	</maintainer>
+	<longdescription lang="en">
+		The crypt_r module is a renamed copy of the crypt module as it was
+		present in Python 3.12 before it was removed
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">crypt-r</remote-id>
+	</upstream>
+</pkgmetadata>
+
