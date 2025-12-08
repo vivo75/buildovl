@@ -29,9 +29,11 @@ src_unpack() {
 }
 
 src_install() {
-    mv "${S}"/{boot,lib,usr}/ "${ED}/" || die
-    mv "${ED}"/usr/sbin/* "${ED}"/usr/bin/ || die
-    rmdir "${ED}"/usr/sbin || die
+    # Don't do this, it's ugly!
+    cp -a "${S}"/{boot,lib,usr}/ "${ED}/" || die
+    exeinto /usr/bin
+    doexe "${WORKDIR}"/usr/sbin/*
+    rm -rv "${ED}"/usr/sbin || die
     mv "${ED}"/boot/vmlinuz{-${PV}-kvm,} || die
     mv "${ED}"/boot/initrd{-${PV}-kvm,} || die
 
