@@ -1,0 +1,11 @@
+[Unit]
+Description=Microsft Azure Linux Agent
+After=multi-user.target
+ConditionVirtualization=microsoft
+
+[Service]
+ExecStart=/usr/sbin/waagent -daemon
+
+[Install]
+WantedBy=multi-user.target
+

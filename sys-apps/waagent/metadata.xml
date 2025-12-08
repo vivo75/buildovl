@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>vivo75@gmail.com</email>
+		<name>Francesco Riosa</name>
+	</maintainer>
+	<longdescription lang="en">
+		The Microsoft Azure Linux Agent (waagent) manages Linux provisioning
+		and VM interaction with the Azure Fabric Controller
+	</longdescription>
+	<upstream>
+		<remote-id type="github">Azure/WALinuxAgent</remote-id>
+	</upstream>
+</pkgmetadata>
