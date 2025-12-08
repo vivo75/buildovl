@@ -13,7 +13,7 @@ HOMEPAGE="https://github.com/Azure/azure-cli https://pypi.org/project/azure-cli/
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64"
+KEYWORDS="" # Does not work
 
 RDEPEND="dev-python/pip
 		virtual/libcrypt
