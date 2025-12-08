@@ -33,6 +33,11 @@ src_install() {
     echo "WORKDIR=${WORKDIR}"
     echo "ED=${ED}"
     mv "${S}"/{boot,lib,usr}/ "${ED}/" || die
+    mv "${ED}"/boot/vmlinuz{-${PV}-kvm,} || die
+    mv "${ED}"/boot/initrd{-${PV}-kvm,} || die
+    
+    insinto /boot/grub
+    newins "${FILESDIR}"/boot-grub-grub.cfg grub.cfg
 
     exeinto /usr/libexec/hypervkvpd
     newexe "${FILESDIR}"/usr-libexec-hypervkvpd-hv_get_dhcp_info hv_get_dhcp_info
