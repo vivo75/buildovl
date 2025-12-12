@@ -38,6 +38,9 @@ src_install() {
 
 	distutils-r1_src_install
 
+	insinto /etc
+	doins "${FILESDIR}"/waagent.conf
+
 	insinto /usr/lib/udev/rules.d
 	doins "${sitedir}"/etc/udev/rules.d/*.rules
 
