@@ -25,6 +25,7 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 RESTRICT="!test? ( test )"
 
 BDEPEND="
+	dev-util/gdbus-codegen
 	>=app-crypt/mit-krb5-1.11
 	>=dev-libs/glib-2.50
 	>=dev-libs/json-glib-1.4
