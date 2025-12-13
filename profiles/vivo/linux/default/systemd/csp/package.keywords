@@ -1,3 +1,13 @@
+# required by llvm-core/lld-21.1.7::gentoo
+# required by llvm-core/lld-toolchain-symlinks-21::gentoo
+=llvm-core/llvm-21.1.7 amd64
+=llvm-core/llvm-toolchain-symlinks-21 amd64
+=llvm-core/lld-21.1.7 amd64
+=llvm-core/lld-toolchain-symlinks-21 amd64
+=llvm-core/llvmgold-21 amd64
+
+
+~dev-python/aiohttp-oauthlib-0.1.0 amd64
 ~dev-python/setuptools-80.9.0 amd64
 <sys-fs/erofs-utils-999 amd64
 ~sys-fs/lvm2-2.03.22 amd64

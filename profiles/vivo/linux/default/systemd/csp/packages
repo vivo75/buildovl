@@ -1,4 +1,3 @@
-
 app-admin/cockpit
 app-admin/cockpit-files
 app-admin/cockpit-machines
@@ -30,6 +29,7 @@ dev-python/aiohttp
 dev-python/aiohttp-cors
 dev-python/aiohttp-oauthlib
 dev-python/aiohttp-socks
+dev-python/boto3
 dev-python/cryptography
 dev-python/fastapi
 dev-python/parameterized

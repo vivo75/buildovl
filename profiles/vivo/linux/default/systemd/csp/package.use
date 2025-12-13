@@ -1,3 +1,8 @@
+# required by sys-apps/systemd-258.2::gentoo[elfutils]
+# required by dev-db/postgresql-18.1::gentoo[server,systemd]
+# required by >=dev-db/postgresql-18.0 (argument)
+>=dev-libs/elfutils-0.194 -static-libs
+
 # dependency required by "sys-fs/dmraid-1.0.0_rc16-r7
 >=sys-fs/lvm2-2.03.22-r7 lvm
 
