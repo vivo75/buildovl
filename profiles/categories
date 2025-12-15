@@ -6,6 +6,7 @@ app-crypt
 app-text
 dev-python
 f1r-conf
+f1r-kernel
 net-misc
 sys-apps
 sys-libs

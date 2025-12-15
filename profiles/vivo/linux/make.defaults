@@ -10,7 +10,6 @@ LDFLAGS="-v ${LDFLAGS} -Wl,-O2 -Wl,--as-needed -Wl,-z,pack-relative-relocs -Wl,-
 EMERGE_DEFAULT_OPTS="--usepkg=n --getbinpkg=y --binpkg-respect-use=y --ask-enter-invalid"
 DISTDIR="/.gentoo/cache/distfiles"
 PKGDIR="/.gentoo/cache/binpkgs"
-KBUILD_OUTPUT="/usr/src/build"
 
 CPU_FLAGS_X86="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt rdrand sha sse sse2 sse3 sse4_1 sse4_2 sse4a ssse3"
 CMAKE_MAKEFILE_GENERATOR="ninja"

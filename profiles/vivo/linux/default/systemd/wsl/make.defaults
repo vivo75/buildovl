@@ -13,5 +13,4 @@ CPU_FLAGS_X86="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt rdrand sse sse2 s
 
 DISTDIR="/.gentoo/cache/distfiles"
 PKGDIR="/.gentoo/cache/binpkgs"
-KBUILD_OUTPUT="/usr/src/build"
 

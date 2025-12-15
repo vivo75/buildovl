@@ -23,7 +23,6 @@ CMAKE_MAKEFILE_GENERATOR="ninja"
 
 DISTDIR="/.gentoo/cache/distfiles"
 PKGDIR="/.gentoo/cache/binpkgs"
-KBUILD_OUTPUT="/usr/src/build"
 
 EMERGE_DEFAULT_OPTS="--usepkg=n --getbinpkg=y --binpkg-respect-use=y --ask-enter-invalid"
 
