@@ -42,7 +42,8 @@ dev-util/debugedit
 dev-util/pahole
 dev-util/patchelf
 dev-util/pkgcheck
-f1r-conf/hyperv-guest
+f1r-conf/csp-cloudinit
+f1r-kernel/csp-kernel
 mail-client/s-nail
 net-analyzer/traceroute
 net-fs/nfs-utils
