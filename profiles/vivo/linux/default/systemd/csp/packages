@@ -1,6 +1,8 @@
+-app-emulation/qemu
+-app-containers/incus
+-app-emulation/libvirt
 app-admin/cockpit
 app-admin/cockpit-files
-app-admin/cockpit-machines
 app-admin/cockpit-podman
 app-admin/helm
 app-admin/pwgen
@@ -46,6 +48,7 @@ f1r-conf/csp-cloudinit
 f1r-kernel/csp-kernel
 mail-client/s-nail
 net-analyzer/traceroute
+net-dns/dnsmasq
 net-fs/nfs-utils
 net-fs/samba
 net-misc/chrony
@@ -68,6 +71,7 @@ sys-fs/dosfstools
 sys-fs/duperemove
 sys-fs/erofs-utils
 sys-fs/multipath-tools
+sys-fs/squashfs-tools
 sys-fs/xfsdump
 sys-fs/xfsprogs
 virtual/w3m
