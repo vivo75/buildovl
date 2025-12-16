@@ -46,6 +46,7 @@ BDEPEND="
 	)
 "
 DEPEND="
+    >=dev-libs/json-glib-1.4
 	dev-libs/libpwquality
 	dev-python/dbus-python
 	net-libs/nodejs[npm]
