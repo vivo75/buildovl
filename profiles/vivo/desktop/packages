@@ -17,7 +17,6 @@ app-portage/gentoopm
 app-text/catdoc
 app-text/flpsed
 app-text/tree
-app-vim/nginx-syntax
 app-vim/ntp-syntax
 app-vim/securemodelines
 app-vim/udev-syntax
