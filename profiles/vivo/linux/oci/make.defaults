@@ -13,3 +13,5 @@ PYTHON_TARGETS="-* python3_13"
 PYTHON_SINGLE_TARGET="python3_13"
 PHP_TARGETS="-* php8-2"
 
+# These are absent in container
+FEATURES="-ipc-sandbox -network-sandbox -pid-sandbox"
