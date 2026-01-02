@@ -1,7 +1,24 @@
 dev-lang/php
 
+# container user for phpfpm
+acct-group/apache
+acct-user/apache
+
+# runtime deps
 dev-php/pecl-stomp
 dev-php/pecl-redis
 dev-php/pecl-imagick
 media-gfx/imagemagick
+app-misc/ca-certificates
+net-misc/curl
+app-arch/xz-utils
+app-arch/zstd
+
+# PHPIZE_DEPS
+dev-build/autoconf
+sys-apps/file
+sys-devel/gcc
+dev-build/make
+dev-util/pkgconf
+dev-util/re2c
 

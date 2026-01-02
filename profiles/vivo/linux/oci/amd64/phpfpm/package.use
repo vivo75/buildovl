@@ -1,5 +1,11 @@
-dev-lang/php fpm acl cli curl gd imap inifile mysql mysqli pdo phpdbg postgres sockets sodium sysvipc truetype webp xmlreader xmlwriter xslt zip
+app-eselect/eselect-php fpm
+dev-lang/php -phpdbg acl argon2 bcmath calendar cli curl enchant exif fpm gd imap inifile jpeg mssql mysql mysqli pdo png postgres sockets sodium sysvipc truetype webp xmlreader xmlwriter xslt zip  postgres_targets_postgres17 POSTGRES_TARGETS: postgres17
+dev-db/postgresql -server -systemd
 
 # required by dev-php/pecl-imagick
 media-gfx/imagemagick -openmp
+
+# must be coherente with php
+>=media-libs/gd-2.3.3 truetype webp
+>=dev-db/freetds-1.5 mssql
 

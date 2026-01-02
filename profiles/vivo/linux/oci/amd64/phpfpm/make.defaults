@@ -1,0 +1,20 @@
+LC_MESSAGES=C.UTF-8
+INSTALL_MASK="/usr/share/doc /usr/share/locale /usr/share/man /opt/rust-bin-*/man /opt/rust-bin-*/share/doc"
+PKG_INSTALL_MASK="${INSTALL_MASK}"
+
+LUA_SINGLE_TARGET="lua5-4"
+LUA_TARGETS="lua5-4"
+PHP_TARGETS="php8-3"
+POSTGRES_TARGETS="postgres17"
+PYTHON_SINGLE_TARGET="python3_13"
+PYTHON_TARGETS="python3_13"
+QEMU_SOFTMMU_TARGETS="x86_64 aarch64"
+RUBY_TARGETS="ruby33"
+SANE_BACKENDS=""
+VIDEO_CARDS="dummy qxl"
+RUSTFLAGS="-C code-model=small -C opt-level=z -C target_cpu=x86-64-v2"
+PHP_TARGETS="-* php8-3"
+
+CFLAGS="${CFLAGS} -fhardened -fpic -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64"
+CXXFLAGS="${CXXFLAGS} -fhardened -fpic -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64"
+
