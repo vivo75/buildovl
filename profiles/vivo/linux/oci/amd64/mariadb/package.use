@@ -1,4 +1,8 @@
 # Smaller MariaDB
-dev-db/mariadb -bindist -innodb-lzo -odbc -oqgraph -rocksdb -s3 -sst-mariabackup -sst-rsync galera jemalloc server
+dev-db/mariadb -bindist -innodb-lzo -odbc oqgraph -rocksdb s3 -sst-mariabackup -sst-rsync galera jemalloc server
 sys-cluster/galera garbd
 dev-vcs/git -perl -safe-directory
+
+# dependency required by "dev-db/redis-8.2.2::gentoo[jemalloc]" [ebuild]
+>=dev-libs/jemalloc-5.3.0 stats
+
