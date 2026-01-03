@@ -1,3 +1,2 @@
-
-
 USE="-doc -gpm -qt5 -consolekit elogind -systemd"
+
