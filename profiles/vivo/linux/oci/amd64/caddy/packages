@@ -1,1 +1,10 @@
 www-servers/caddy
+
+# container user for phpfpm
+acct-group/apache
+acct-user/apache
+
+# runtime deps
+app-misc/ca-certificates
+net-misc/curl
+
