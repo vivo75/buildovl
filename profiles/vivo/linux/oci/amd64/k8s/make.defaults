@@ -1,0 +1,2 @@
+USE="-cups -doc -gpm -qt5 -consolekit elogind -systemd"
+

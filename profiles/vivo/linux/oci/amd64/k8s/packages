@@ -1,0 +1,8 @@
+app-containers/k3d
+app-containers/podman
+app-crypt/cfssl
+app-emulation/cloud-init
+mail-client/s-nail
+net-vpn/wireguard-tools
+sys-process/tini
+

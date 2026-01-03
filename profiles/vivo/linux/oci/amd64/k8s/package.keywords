@@ -1,0 +1,34 @@
+<app-admin/sudo-9999 amd64
+<app-arch/zstd-9999 amd64
+<app-crypt/certbot-9999 amd64
+<app-crypt/certbot-apache-9999 amd64
+<net-misc/curl-8 amd64
+
+# required by many packages (udev related)
+sys-apps/hwids amd64
+
+# profile
+mail-client/s-nail amd64
+
+# kubernetes k8s
+sys-cluster/kubeletctl amd64
+sys-cluster/kubeadm amd64
+sys-cluster/kube-apiserver amd64
+sys-cluster/kube-controller-manager amd64
+sys-cluster/kubectl amd64
+sys-cluster/kubelet amd64
+sys-cluster/kube-proxy amd64
+sys-cluster/kube-router amd64
+sys-cluster/kube-scheduler amd64
+
+app-containers/runc amd64
+
+# k3s
+app-misc/yq amd64
+# required by sys-cluster/k3s (argument)
+sys-cluster/k3s amd64
+sys-cluster/cilium-cli amd64
+
+# required by sys-apps/kmod-34.2::gentoo
+<=dev-build/meson-1.7.999 amd64
+
