@@ -1,5 +1,5 @@
 app-eselect/eselect-php fpm
-dev-lang/php -phpdbg acl argon2 bcmath calendar cli curl exif fpm gd imap inifile jpeg mssql mysql mysqli pdo png postgres sockets sodium sysvipc truetype webp xmlreader xmlwriter xslt zip
+dev-lang/php -phpdbg -postgres acl argon2 bcmath calendar cli curl exif fpm gd imap inifile jpeg mssql mysql mysqli pdo png sockets sodium sysvipc truetype webp xmlreader xmlwriter xslt zip
 dev-db/postgresql -server -systemd
 
 # required by dev-php/pecl-imagick

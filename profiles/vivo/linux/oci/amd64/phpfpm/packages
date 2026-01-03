@@ -8,6 +8,8 @@ acct-user/apache
 dev-php/pecl-stomp
 dev-php/pecl-redis
 dev-php/pecl-imagick
+
+app-text/docbook-xml-dtd
 media-gfx/imagemagick
 app-misc/ca-certificates
 net-misc/curl
