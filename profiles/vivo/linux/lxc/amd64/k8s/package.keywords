@@ -11,6 +11,7 @@ sys-apps/hwids amd64
 mail-client/s-nail amd64
 
 # kubernetes k8s
+sys-cluster/cilium-cli amd64
 sys-cluster/kubeletctl amd64
 sys-cluster/kubeadm amd64
 sys-cluster/kube-apiserver amd64
