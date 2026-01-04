@@ -1,2 +1,2 @@
-USE="-doc -gpm -qt5 -consolekit elogind -systemd"
+USE="-cups -doc -gpm -qt5 -consolekit json systemd"
 
