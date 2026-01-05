@@ -11,7 +11,6 @@ sys-apps/hwids amd64
 mail-client/s-nail amd64
 
 # kubernetes k8s
-sys-cluster/cilium-cli amd64
 sys-cluster/kubeletctl amd64
 sys-cluster/kubeadm amd64
 sys-cluster/kube-apiserver amd64
@@ -29,6 +28,7 @@ app-misc/yq amd64
 # required by sys-cluster/k3s (argument)
 sys-cluster/k3s amd64
 sys-cluster/cilium-cli amd64
+sys-cluster/hubble amd64
 
 # required by sys-apps/kmod-34.2::gentoo
 <=dev-build/meson-1.7.999 amd64
