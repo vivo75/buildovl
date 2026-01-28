@@ -1,5 +1,3 @@
-nls
-
 # avoid python confusion, we support only latest and greatest
 python_targets_python3_4
 python_targets_python3_5
