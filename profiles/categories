@@ -9,5 +9,6 @@ f1r-conf
 f1r-kernel
 net-misc
 sys-apps
+sys-cluster
 sys-libs
 www-apps
