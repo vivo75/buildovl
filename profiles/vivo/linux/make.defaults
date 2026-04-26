@@ -1,6 +1,6 @@
 ABI_X86="-32 64"
 
-COMMON_FLAGS="-O3 -pipe -march=znver2 -mtune=znver3 -frecord-gcc-switches -fdiagnostics-color=never"
+COMMON_FLAGS="-O3 -pipe -march=znver3 -mtune=znver3 -frecord-gcc-switches -fdiagnostics-color=never"
 CFLAGS="${COMMON_FLAGS}"
 CXXFLAGS="${COMMON_FLAGS}"
 FCFLAGS="${COMMON_FLAGS}"

@@ -1,7 +1,7 @@
 # Please consult /usr/share/portage/config/make.conf.example for a more
 # detailed example.
 CHOST="x86_64-pc-linux-gnu"
-COMMON_FLAGS="-O3 -pipe -march=znver2 -mtune=znver3\
+COMMON_FLAGS="-O3 -pipe -march=znver3 -mtune=znver3\
  -fpermissive -frecord-command-line -fcolor-diagnostics\
  -Wno-error=implicit-function-declaration\
  -flto=thin"
