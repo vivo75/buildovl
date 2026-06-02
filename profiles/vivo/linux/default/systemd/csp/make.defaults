@@ -1,4 +1,4 @@
 USE="-doc -gpm btrfs elfutils io-uring native-extensions openmp"
-PYTHON_SINGLE_TARGET="-* python3_13"
-PYTHON_TARGETS="-* python3_13"
+PYTHON_SINGLE_TARGET="-* python3_14"
+PYTHON_TARGETS="-* python3_14"
 VIDEO_CARDS="fbdev"
