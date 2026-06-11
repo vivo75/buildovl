@@ -3,13 +3,12 @@ Description=Ollama Service
 After=network-online.target
 
 [Service]
-ExecStart=/opt/ollama/bin/ollama serve
+ExecStart=/usr/bin/ollama serve
 User=ollama
 Group=ollama
 Restart=always
 RestartSec=3
 Environment="PATH=$PATH"
-EnvironmentFile=/etc/conf.d/ollama
 
 [Install]
 WantedBy=multi-user.target

@@ -92,7 +92,7 @@ COMMON_DEPEND="
 
 DEPEND="
 	${COMMON_DEPEND}
-	>=dev-lang/go-1.23.4
+	>=dev-lang/go-1.24.1
 "
 BDEPEND="
 	vulkan? (
@@ -109,7 +109,7 @@ RDEPEND="
 
 PATCHES=(
 	"${FILESDIR}/${PN}-9999-use-GNUInstallDirs.patch"
-	"${FILESDIR}/${PN}-9999-make-installing-runtime-deps-optional.patch"
+	"${FILESDIR}/${PN}-0.18.0-make-installing-runtime-deps-optional.patch"
 )
 
 pkg_pretend() {
