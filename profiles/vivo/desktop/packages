@@ -1,7 +1,6 @@
 app-admin/keepassxc
 app-admin/logrotate
 app-admin/sudo
-app-arch/p7zip
 app-crypt/efitools
 app-containers/lxc
 app-emulation/qemu
