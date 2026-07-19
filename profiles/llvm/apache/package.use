@@ -1,3 +1,6 @@
+# required by net-misc/curl-8.20.0-r1::gentoo
+net-libs/ngtcp2 openssl
+
 # required by old sources
 net-misc/openssh legacy-ciphers
 
