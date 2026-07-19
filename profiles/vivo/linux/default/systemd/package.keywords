@@ -1,2 +1,6 @@
+# required by sys-fs/zfs-2.4.3::gentoo
+=dev-python/cffi-2.1.0 amd64
+=dev-python/charset-normalizer-3.4.9 amd4
+
 # not stable yet
 <net-vpn/wireguard-tools-9999 amd64
