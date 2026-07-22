@@ -1,3 +1,6 @@
+# required by sys-fs/zfs-2.4.3::gentoo
+=dev-python/cffi-2.1.0 ~amd64
+
 >=app-containers/podman-compose-1.3.0 amd64
 
 <app-vim/vim-nftables-999 amd64
