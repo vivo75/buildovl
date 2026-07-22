@@ -1,3 +1,8 @@
+>=app-crypt/certbot-5.5.0 certbot-apache
+
+# required by dev-php/pecl*
+>=dev-lang/php-8.3.29 -webp -truetype
+
 # required by net-misc/curl-8.20.0-r1::gentoo
 net-libs/ngtcp2 openssl
 
@@ -15,7 +20,7 @@ www-servers/apache apache2_modules_authn_socache
 sci-libs/dlib jpeg png python
 
 app-misc/mime-types nginx
-dev-lang/php -debug apache2 cli fpm postgres sysvipc webp
+dev-lang/php -debug apache2 cli fpm postgres sysvipc
 dev-db/postgresql -server llvm uuid xml
 
 # media-gfx/imagemagick:=[-openmp] required by (dev-php/pecl-imagick-3.7.0-r3-1:0/0::gentoo, installed)

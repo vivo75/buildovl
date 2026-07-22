@@ -1,3 +1,12 @@
+# required by dev-python/setuptools-scm-10.0.5::gentoo
+=dev-python/setuptools-83.0.0 amd64
+
+# required by dev-python/cryptography-49.0.0::gentoo[-test]
+# required by dev-python/oauthlib-3.3.1::gentoo
+# required by app-emulation/cloud-init-25.1::gentoo
+=dev-python/cffi-2.1.0 amd64
+
+
 # keep php recent
 dev-lang/php:8.2 amd64
 
