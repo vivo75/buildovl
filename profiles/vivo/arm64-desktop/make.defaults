@@ -1,0 +1,66 @@
+# REMOVE "-fno-tree-loop-distribute-patterns -fno-tree-loop-vectorize" when possible, see:
+# https://gcc.gnu.org/bugzilla/show_bug.cgi?id=93334
+# https://github.com/Beep6581/RawTherapee/issues/5749
+WARNING_FLAGS="-Werror=odr -Werror=lto-type-mismatch -Werror=strict-aliasing"
+# -Wa,--gsframe 
+DEBUG_FLAGS="-frecord-gcc-switches -fdiagnostics-color=never -ggdb"
+CFLAGS="-O3 -pipe -march=native -mtune=native -fno-tree-loop-distribute-patterns -fno-tree-loop-vectorize ${DEBUG_FLAGS} -flto ${WARNING_FLAGS}"
+CXXFLAGS="-O3 -pipe -march=native -mtune=native -fno-tree-loop-distribute-patterns -fno-tree-loop-vectorize ${DEBUG_FLAGS} -flto ${WARNING_FLAGS}"
+RUSTFLAGS="-C code-model=medium -C opt-level=3 -C target_cpu=native"
+FCFLAGS="-O3 -pipe -march=native -mtune=native"
+FFLAGS="-O3 -pipe -march=native -mtune=native"
+CMAKE_MAKEFILE_GENERATOR="ninja"
+
+DISTDIR="/.gentoo/cache/distfiles"
+PKGDIR="/.gentoo/cache/binpkgs"
+
+EMERGE_DEFAULT_OPTS="--usepkg=n --getbinpkg=y --binpkg-respect-use=y --ask-enter-invalid"
+
+BOOTSTRAP_USE="${BOOTSTRAP_USE} systemd udev"
+
+# Define the default portage feature set.
+FEATURES="distlocks parallel-fetch collision-protect sign test-fail-continue userpriv usersandbox"
+FEATURES="${FEATURES} compress-build-logs ebuild-locks fail-clean multilib-strict"
+FEATURES="${FEATURES} split-elog split-log splitdebug compressdebug"
+FEATURES="${FEATURES} unknown-features-warn unmerge-logs noinfo usersync xattr"
+FEATURES="${FEATURES} -merge-sync"
+
+# Log eqawarn messages
+PORTAGE_ELOG_CLASSES="warn error log qa"
+# use xz compression for docs instead of bzip2
+PORTAGE_COMPRESS="xz"
+
+# allow unstable
+ACCEPT_KEYWORDS="~amd64"
+
+# Allow installation of any packages, regardless of LICENSE setting.
+ACCEPT_LICENSE="*"
+
+USE="${USE} -gpm -kdepim -handbook -oldwallet -bindist -qt4"
+USE="${USE} acpi activities branding cairo cdda cdr clang"
+USE="${USE} cpudetection cups dbus declarative dri dts dvd dvdr egl emboss encode exif fam"
+USE="${USE} gif gpu gtk jpeg kde kipi kwallet lcms ldap"
+USE="${USE} libnotify lz4 metric opengl pango pdf pgo"
+USE="${USE} plasma png ppds qml qt6 sdl semantic-desktop spell"
+USE="${USE} startup-notification svg systemd threads truetype udev udisks unicode"
+USE="${USE} usb vulkan wayland widgets"
+USE="${USE} xml zstd"
+
+# This sets the language of build output to English.
+# Please keep this setting intact when reporting bugs.
+LC_MESSAGES=C
+L10N="en it"
+LINGUAS="en it"
+
+# don't config protect /etc/mtab
+CONFIG_PROTECT_MASK="/etc/mtab"
+
+LLVM_TARGETS="AArch64 AMDGPU BPF WebAssembly"
+#VIDEO_CARDS="-* intel i965 nouveau radeon radeonsi amdgpu qxl modesetting virgl"
+INPUT_DEVICES="-* evdev wacom libinput synaptics"
+#SANE_BACKENDS="-* hp hp3500 hp3900 hp4200 hp5400 hp5590 hpljm1005"
+QEMU_SOFTMMU_TARGETS="x86_64 aarch64"
+APACHE2_MODULES="${APACHE2_MODULES} macro proxy proxy_ajp proxy_balancer proxy_connect proxy_fcgi"
+APACHE2_MODULES="${APACHE2_MODULES} proxy_html proxy_http proxy_http2 proxy_wstunnel ratelimit"
+APACHE2_MODULES="${APACHE2_MODULES} remoteip slotmem_shm substitute xml2enc"
+# vim: setlocal filetype=gentoo-make-conf :

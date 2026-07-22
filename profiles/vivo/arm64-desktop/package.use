@@ -1,0 +1,59 @@
+net-dns/dnsmasq script
+
+# prepare for eBPF
+sys-apps/iproute2 elf
+
+# without net s-nail miss SMTP and it's impossible to debug
+mail-client/s-nail ssl net
+
+##########################
+# this stuff need  sorting
+
+dev-lang/php gd bcmath calendar curl debug flatfile fpm gmp -imap inifile mysql pcntl soap sockets sqlite sysvipc vpx xmlreader xmlrpc xmlwriter xslt zip pdo
+dev-lang/python sqlite pgo
+
+# (dependency required by "kde-plasma/kwin-6.1.2::gentoo" [ebuild])
+# (dependency required by "lxqt-base/lxqt-meta-2.0.0::gentoo[window-manager]" [ebuild])
+x11-base/xwayland libei
+
+# required by kde-apps/akonadi-contacts-24.05.2::gentoo
+# required by kde-apps/messagelib-24.05.2::gentoo
+# ...
+>=kde-apps/akonadi-24.05.2 -mysql
+
+# Ionen Wolkens <ionen@gentoo.org> (2023-08-10)
+# Multilib profiles (currently) prefer USE=abi_x86_32 over experimental
+# USE=wow64, but experimental is better than no support for no-multilib.
+#app-emulation/wine-proton wow64
+#app-emulation/wine-staging wow64
+#app-emulation/wine-vanilla wow64
+
+# required by "sys-power/apcupsd-3.14.14-r3::gentoo"
+>=sys-apps/util-linux-2.23 tty-helpers
+
+# required by "net-print/hplip-3.24.4::gentoo" 
+net-dns/avahi python
+
+# required by "mail-client/thunderbird-115.13.0-r1::gentoo[system-libvpx]" 
+>=media-libs/libvpx-1.8.2:0 postproc
+
+# required by "dev-util/bcc-0.30.0-r1::gentoo" 
+>=dev-libs/libbpf-1.2.0 static-libs
+
+# required by dev-php/tcpdf-6.2.26::gentoo
+>=dev-lang/php-8.3.9 -fpm
+
+# required by "app-emulation/virt-manager-4.1.0-r1::gentoo" 
+net-misc/spice-gtk usbredir
+
+# required by "app-emulation/libvirt-10.5.0::gentoo[qemu]" 
+>=net-libs/gnutls-3.8.6 pkcs11 tools
+
+# required by "app-containers/lxc-6.0.1::gentoo[caps,tools]"
+sys-libs/libcap static-libs
+
+# required by "kde-apps/kdenlive-24.05.2::gentoo"
+>=media-video/ffmpeg-6.1.1 libass sdl
+
+# require vlc which is not well maintained in gentoo
+media-libs/phonon minimal
