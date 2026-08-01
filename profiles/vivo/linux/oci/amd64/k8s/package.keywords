@@ -24,7 +24,6 @@ sys-cluster/kube-scheduler amd64
 app-containers/runc amd64
 
 # k3s
-app-misc/yq amd64
 # required by sys-cluster/k3s (argument)
 sys-cluster/k3s amd64
 sys-cluster/cilium-cli amd64

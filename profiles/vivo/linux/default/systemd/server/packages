@@ -14,7 +14,7 @@ app-crypt/certbot-apache
 app-emulation/cloud-init
 app-emulation/libvirt
 app-emulation/virtiofsd
-app-misc/yq
+app-misc/yq-go
 app-portage/portage-utils
 app-text/tree
 app-vim/vim-nftables

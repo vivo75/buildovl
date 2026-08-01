@@ -20,7 +20,7 @@ app-crypt/certbot-apache
 app-emulation/cloud-init
 app-emulation/libvirt
 app-emulation/virtiofsd
-app-misc/yq
+app-misc/yq-go
 app-portage/cpuid2cpuflags
 app-portage/mirrorselect
 app-portage/portage-utils
