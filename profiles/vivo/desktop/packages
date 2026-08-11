@@ -13,7 +13,6 @@ app-misc/symlinks
 app-office/libreoffice
 app-portage/eix
 app-portage/gentoopm
-app-text/catdoc
 app-text/flpsed
 app-text/tree
 app-vim/ntp-syntax
