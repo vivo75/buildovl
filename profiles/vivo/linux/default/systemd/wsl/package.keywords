@@ -3,7 +3,6 @@
 ~dev-util/bcc-0.29.1-r1 amd64
 ~app-containers/podman-tui-0.14.0 amd64
 ~app-containers/cri-o-1.29.0 amd64
-~dev-util/radare2-5.8.8-r1 amd64
 ~app-forensics/lynis-3.0.9 amd64
 ~dev-util/docker-distribution-pruner-0_p20170401 amd64
 ~sys-cluster/k3s-1.25.4_p1 amd64

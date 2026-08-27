@@ -35,7 +35,6 @@ dev-python/sqlalchemy
 dev-util/docker-distribution-pruner
 dev-util/pahole
 dev-util/pkgcheck
-dev-util/radare2
 dev-util/rustup
 media-fonts/droid
 media-fonts/roboto
