@@ -6,6 +6,7 @@ app-crypt
 app-text
 dev-db
 dev-python
+dev-util
 dev-vcs
 f1r-conf
 f1r-kernel
