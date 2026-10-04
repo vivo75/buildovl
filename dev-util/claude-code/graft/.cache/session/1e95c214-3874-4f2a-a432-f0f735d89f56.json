@@ -1,0 +1,13 @@
+{
+  "lastQuery": "Explain what's needed to implement docs/batch-2026-09-21.md Phase 2b (docs/01.129-130-per-entry-env-residues.md)",
+  "perAgentQuery": {},
+  "graftReads": 0,
+  "sourceReads": 2,
+  "savedTokens": 0,
+  "injectedPointers": [],
+  "nudges": 0,
+  "host": "claude-code",
+  "inputCostMicros": 338850,
+  "inputTokensBilled": 625081,
+  "lastBillingUuid": "79f26714-b977-44df-87a2-a729db7e28d4"
+}
