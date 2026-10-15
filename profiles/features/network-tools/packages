@@ -17,7 +17,6 @@ net-misc/dhcp
 net-misc/iperf
 net-misc/mosh
 net-misc/nicstat
-net-misc/ntp
 net-misc/radvd
 net-misc/socat
 # net-misc/usbip fail strict multilib test

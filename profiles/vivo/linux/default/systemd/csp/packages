@@ -15,7 +15,6 @@ app-containers/containerd
 app-containers/cri-tools
 app-containers/podman
 app-containers/podman-compose
-app-containers/skopeo
 app-crypt/certbot-apache
 app-emulation/cloud-init
 app-emulation/libvirt
