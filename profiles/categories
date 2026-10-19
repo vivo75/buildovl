@@ -14,6 +14,7 @@ dev-vcs
 f1r-conf
 f1r-kernel
 mail-filter
+net-libs
 net-misc
 sci-libs
 sci-misc
