@@ -55,7 +55,6 @@ sys-apps/cpuid
 sys-apps/ethtool
 sys-apps/fakeroot
 sys-apps/flatpak
-sys-apps/ipmiutil
 sys-apps/lshw
 sys-apps/mlocate
 sys-apps/most
