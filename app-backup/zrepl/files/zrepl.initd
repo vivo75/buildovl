@@ -1,0 +1,25 @@
+#!/sbin/openrc-run
+# Copyright 1999-2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+# shellcheck shell=sh disable=SC2034
+
+description="zrepl ZFS backup and replication daemon"
+command="/usr/bin/zrepl"
+command_args="daemon"
+command_background=true
+pidfile="/run/${RC_SVCNAME}.pid"
+
+# zrepl blocks SIGTERM until the running replication step ends; force
+# SIGKILL after a grace period, which is safe as receives are resumable.
+retry="SIGTERM/30/SIGKILL/5"
+
+depend() {
+	use net dns logger
+	after clock
+}
+
+start_pre() {
+	"${command}" configcheck || return 1
+	checkpath -q -d -m 0700 -o root:root /run/zrepl
+	checkpath -q -d -m 0700 -o root:root /run/zrepl/stdinserver
+}
