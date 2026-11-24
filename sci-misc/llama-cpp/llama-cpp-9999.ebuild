@@ -23,13 +23,13 @@ HOMEPAGE="https://github.com/ggml-org/llama.cpp"
 LICENSE="MIT"
 SLOT="0"
 CPU_FLAGS_X86=( avx avx2 f16c )
-IUSE="curl openblas +openmp blis hip cuda opencl vulkan"
+IUSE="ssl openblas +openmp blis hip cuda opencl vulkan"
 REQUIRED_USE="?? ( openblas blis )"
 
-# curl is needed for pulling models from huggingface
+# ssl (openssl) is needed for HTTPS, e.g. pulling models from huggingface
 # numpy is used by convert_hf_to_gguf.py
 CDEPEND="
-	curl? ( net-misc/curl:= )
+	ssl? ( dev-libs/openssl:= )
 	openblas? ( sci-libs/openblas:= )
 	openmp? ( llvm-runtimes/openmp:= )
 	blis? ( sci-libs/blis:= )
@@ -40,7 +40,10 @@ CDEPEND="
 "
 DEPEND="${CDEPEND}
 	opencl? ( dev-util/opencl-headers )
-	vulkan? ( dev-util/vulkan-headers )
+	vulkan? (
+		dev-util/vulkan-headers
+		dev-util/spirv-headers
+	)
 "
 RDEPEND="${CDEPEND}
 	dev-python/numpy
@@ -73,13 +76,19 @@ src_configure() {
 		-DCMAKE_SKIP_BUILD_RPATH=ON
 		-DGGML_NATIVE=0	# don't set march
 		-DGGML_RPC=ON
-		-DLLAMA_CURL=$(usex curl ON OFF)
+		-DLLAMA_OPENSSL=$(usex ssl ON OFF)
+		# do not download prebuilt UI / binaries at build time
+		-DLLAMA_BUILD_UI=OFF
+		-DLLAMA_USE_PREBUILT_UI=OFF
+		-DLLAMA_CONNECT=OFF
 		-DBUILD_NUMBER="1"
 		-DGENTOO_REMOVE_CMAKE_BLAS_HACK=ON
 		-DGGML_CUDA=$(usex cuda ON OFF)
 		-DGGML_OPENCL=$(usex opencl ON OFF)
 		-DGGML_OPENMP=$(usex openmp ON OFF)
 		-DGGML_VULKAN=$(usex vulkan ON OFF)
+		-DGGML_VULKAN_SPIRV_INCLUDE_DIR="${ESYSROOT}/usr/include"
+		-DGGML_OPENCL_ADRENO_BIN_KERNELS_FETCH=OFF
 
 		# avoid clashing with whisper.cpp
 		-DCMAKE_INSTALL_LIBDIR="${EPREFIX}/usr/$(get_libdir)/llama.cpp"
