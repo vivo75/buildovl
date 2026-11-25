@@ -95,6 +95,9 @@ src_configure() {
 		# avoid clashing with whisper.cpp
 		-DCMAKE_INSTALL_LIBDIR="${EPREFIX}/usr/$(get_libdir)/llama.cpp"
 		-DCMAKE_INSTALL_RPATH="${EPREFIX}/usr/$(get_libdir)/llama.cpp"
+		
+		# avoid warning
+		-DGGML_CCACHE=OFF
 	)
 
 	if use openblas ; then
@@ -134,8 +137,4 @@ src_configure() {
 
 src_install() {
 	cmake_src_install
-	dobin "${BUILD_DIR}/bin/rpc-server"
-
-	# avoid clashing with whisper.cpp
-	rm -rf "${ED}/usr/include"
 }
